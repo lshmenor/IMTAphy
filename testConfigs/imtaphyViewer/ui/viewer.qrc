@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>remove.png</file>
+    <file>dialog-information.png</file>
+    <file>add.png</file>
+    <file>stock_save.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>
