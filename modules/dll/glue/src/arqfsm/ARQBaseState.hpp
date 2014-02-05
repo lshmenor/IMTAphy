@@ -65,10 +65,12 @@ namespace glue { namespace arqfsm {
 			switch(command->peer.type)
 			{
 			case COMMAND::I:
-				return onI(compound, command->peer.NS);
+				// add this-> by qiong
+				return this->onI(compound, command->peer.NS);
 
 			case COMMAND::ACK:
-				return onACK(command->peer.NS);
+				// add this-> by qiong
+				return this->onACK(command->peer.NS);
 
 			default:
 				throw wns::Exception("Unknown frame type received.");
