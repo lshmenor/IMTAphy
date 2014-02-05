@@ -26,6 +26,7 @@
  ******************************************************************************/
 
 #include <WNS/logger/ConsoleFormat.hpp>
+#include <unistd.h> // for isatty()
 #include <iomanip>
 #include <cstdlib>
 

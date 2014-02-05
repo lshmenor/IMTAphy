@@ -28,6 +28,7 @@
 #include <WNS/simulator/SegmentationViolationHandler.hpp>
 #include <WNS/Backtrace.hpp>
 
+#include <unistd.h> // for getpid()
 #include <iostream>
 #include <cstdlib>
 
