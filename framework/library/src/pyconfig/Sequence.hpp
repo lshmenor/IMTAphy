@@ -76,7 +76,8 @@ namespace wns { namespace pyconfig {
 			assure(!IteratorPolicy::obj().isNull(), "This is the end, my friend.\n");
 
 			T value;
-			convert(value, IteratorPolicy::obj());
+			// add this-> by qiong
+			this->convert(value, IteratorPolicy::obj());
 			return value;
 		} // *
 

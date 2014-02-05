@@ -81,7 +81,8 @@ namespace wns {
 			totalWeight += w;
 			if(totalWeight > 0) {
 				this->mean *= (1-w/totalWeight);
-				this->mean += convertForAveraging(c)*w/totalWeight;
+				// add this-> by qiong
+				this->mean += this->convertForAveraging(c)*w/totalWeight;
 			}
 		};
 

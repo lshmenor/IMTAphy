@@ -129,7 +129,8 @@ namespace wns {
 			return convertForAveraged(mean);
 		}
 
-	protected:
+	// commented by qiong
+	//protected:
 		/**
 		 * @brief Supports averaging of other types like Power or Ratio
 		 *
