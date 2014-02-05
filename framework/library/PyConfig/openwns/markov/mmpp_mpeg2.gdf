@@ -1,0 +1,29 @@
+# mmpp_mpeg2.gdf
+#
+# Example File for MARKOV_SRC_01 !!!!
+#
+# Number of States
+#
+N = 6
+#
+#
+# StateNr. PDF Arg0 Arg1 Rate(optional)[c/s]
+#
+0 exponential 0.038e-3 0.0
+1 exponential 0.192e-3 0.0
+2 exponential 0.192e-3 0.0 
+3 exponential 0.066e-3 0.0
+4 exponential 0.192e-3 0.0
+5 exponential 0.192e-3 0.0
+#
+#
+# Matrix der Uebergangsraten
+#
+# ij : state i -> state j
+#
+0.0 3.0e+1 1.0e-1 1.0e-1 1.0e-1 1.0e-1
+1.0e-1 0.0 3.0e+1 1.0e-1 1.0e-1 1.0e-1
+1.0e-1 1.0e-1 0.0 3.0e+1 1.0e-1 1.0e-1
+1.0e-1 1.0e-1 1.0e-1 0.0 3.0e+1 1.0e-1
+1.0e-1 1.0e-1 1.0e-1 1.0e-1 0.0 3.0e+1
+3.0e+1 1.0e-1 1.0e-1 1.0e-1 1.0e-1 0.0

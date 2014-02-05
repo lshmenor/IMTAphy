@@ -1,0 +1,34 @@
+#!/bin/bash
+set -e
+if tla tree-version 2> /dev/null
+then
+ORIG=$(tla logs -f | tail -1)
+DST=$(echo $ORIG-$USER | tr / -)
+tla add-pristine $ORIG
+tla changeset $(tla find-pristine $ORIG) . /tmp/$DST
+HERE=$(pwd)
+cd /tmp
+tar -cvzf $HERE/$DST.tgz $DST
+rm -rf /tmp/$DST
+echo
+echo Generated Patchset:
+echo $HERE/$DST.tgz
+exit 0
+fi
+if bzr status 2> /dev/null
+then
+ORIG=$(bzr nick)
+DST=$(echo $ORIG-$USER | tr / -)
+HERE=$(pwd)
+bzr bundle -o bundle
+bzr shelve --all
+tar -cvzf $DST.tgz bundle .shelf
+bzr unshelve --all
+# Cleanup
+rm -rf .shelf
+rm bundle
+echo $HERE/$DST.tgz
+exit 0
+fi
+
+echo "Not in Bazaar or TLA branch."

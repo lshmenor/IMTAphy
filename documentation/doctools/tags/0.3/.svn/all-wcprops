@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/projects/!svn/ver/62772/doctools/tags/0.3
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/!svn/ver/62772/doctools/tags/0.3/LICENSE
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/!svn/ver/62772/doctools/tags/0.3/AUTHORS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/!svn/ver/62772/doctools/tags/0.3/TODO
+END
+ez_setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/!svn/ver/62772/doctools/tags/0.3/ez_setup.py
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/!svn/ver/62772/doctools/tags/0.3/setup.py
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/!svn/ver/62772/doctools/tags/0.3/CHANGES
+END
+sphinx-quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx-quickstart.py
+END
+sphinx-web.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx-web.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/!svn/ver/62772/doctools/tags/0.3/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/!svn/ver/62772/doctools/tags/0.3/README
+END
+sphinx-build.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx-build.py
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/!svn/ver/62772/doctools/tags/0.3/setup.cfg
+END

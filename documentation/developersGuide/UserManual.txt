@@ -1,0 +1,24 @@
+/**
+
+@page wns_documentation_usermanual User Manual
+
+The user manual provides information for researchers that want to use the
+simulator by means of configuration. If you think you need to implement a
+new model or function in C++ you should better read the @ref wns_documentation_developersguide.
+
+The user manual provides information on how to install openWNS, how to configure and setup simulations and how to configure your evaluation.
+
+Content of the user manual:
+
+  -# @subpage gettingstarted
+    -# @ref prerequisites
+    -# @ref download
+    -# @ref installation
+    -# @ref SDKLayout
+  -# @subpage wns_documentation_networksimulators
+  -# @subpage wns_documentation_features
+  -# @ref group_wns_queuingsystem_tutorial
+  -# @subpage openwns_evaluation
+  -# @ref probing
+
+*/

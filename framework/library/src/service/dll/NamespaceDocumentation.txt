@@ -1,0 +1,7 @@
+/**
+   @namespace wns::service::dll
+
+   @brief Contains all interfaces related to Data Link Layer Services
+
+*/
+

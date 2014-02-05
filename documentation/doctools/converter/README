@@ -1,0 +1,22 @@
+Python Doc LaTeX to Sphinx converter
+====================================
+
+This converter was used to convert the Python docs to Sphinx'
+reStructuredText format. It can also be used to convert other
+docs using the LaTeX style, with a custom script that directly
+calls ``convert_file`` from the converter package. The only
+thing you have to be aware of is the include file mapping, which
+the converter will consult when it encounters a ``literalinclude``
+command.  You can monkey-patch that dictionary like this::
+
+     from converter import restwriter, convert_file
+
+     class IncludeRewrite:
+         def get(self, a, b=None):
+             if os.path.exists(os.path.join(source, a + '.tex')):
+                 return a + '.rst'
+             return a
+     restwriter.includes_mapping = IncludeRewrite()
+
+     for infile, outfile in <somecollection>:
+         convert_file(infile, outfile)

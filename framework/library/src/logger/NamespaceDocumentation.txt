@@ -1,0 +1,106 @@
+/**
+   @namespace wns::logger
+
+   @brief Logging subsystem of WNS
+
+   WNS provides a nice logging system that supports Messages with
+   priorities. This makes the use of "cout-Logging" obsolete. It works as
+   follows:
+
+   <ol>
+     <li> Create an empty Message "m"
+     <li> Fill "m" with information
+     <li> Use a Logger to send Message to MasterLogger
+     <ol>
+       <li> If the Logger is disabled the Message will be dropped
+       <li> If the Logger is enabled the Message is sent to the MasterLogger
+       <ol>
+         <li> If the MasterLogger is enabled and the priority of the Message is
+              higher than the global logging priority the Message is processed
+         <li> If the MasterLogger is disabled the Message is dropped
+       </ol>
+     </ol>
+   </ol>
+
+   The logging has some useful features:
+   <ol>
+     <li> Each Logger can be enabled and disabled
+     <li> Message objects may be used like streams
+     <li> Supports different MasterLoggers (ConsoleLogger, <em>FileLogger,
+          NetLogger, ...</em>)
+     <li> The whole logging system can be disabled at compile time by defining
+          @c WNS_NO_LOGGING. If the logging system is disabled there is no more runtime
+          overhead.
+   </ol>
+
+   @section Motivation
+
+   For the development and usage of simulation tools it is
+   indispensable to have a mechanism for logging of (debugging)
+   information about the current state/actions of the programm. As an
+   example consider a mobile station appliying power control to its
+   links. You want to see, if your power control works, hence you
+   insert the following line in your power control algorithm:
+
+   @code
+   class Transmitter {
+   public:
+	....
+	void powerControl()
+	{
+		...
+		std::cout << "Set new power to: " << newPower << " dBm\n";
+	}
+	...
+   };
+   @endcode
+
+   Every time the algorithm is executed you will see an output like this:
+
+   @verbatim
+   Set new power to: 32 dBm
+   Set new power to: 33 dBm
+   Set new power to: 34 dBm
+   Set new power to: 33 dBm
+   @endverbatim
+
+   This is quite nice if you have only few logging messages. But
+   with an increasing number of entities logging in such a way a
+   number of problems appear:
+
+   <ol>
+   <li> You can't see which entity (station) has generated the output.</li>
+
+   <li> The simulation time when the output was generated is often of
+     interest.</li>
+
+   <li> You might want to disable certain logging output because it
+     bloats your ouput with (at this moment) useless information.</li>
+
+   <li> You need this output only if you're currently debugging your
+     simulator. In case your simulating (what you should aim at) this
+     output is not only useless, but it slows your simulation
+     significantly down. </li>
+
+   <li> You might want to redirect your logging output to something
+     different but stdout. </li>
+   </ol>
+
+   @section Usage
+
+   Therefore a logging system has been created which tackles all these
+   issues. In the following the usage of the system will be explained.
+
+   In order to use the logging service you need to know two things:
+
+   <ol>
+   <li> How is the stuff used in C++?</li>
+
+   <li> How is the stuff configured in PyConfig?</li>
+   </ol>
+
+   More to come ;)
+
+   @todo Finalize documentation ... :)
+*/
+

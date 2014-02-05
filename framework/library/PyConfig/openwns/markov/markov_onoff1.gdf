@@ -1,0 +1,28 @@
+# markov_onoff1.gdf
+#
+# usable with MARKOV_SRC_??
+#
+# Number of States
+#
+N = 2
+#
+# Arguments
+#
+# StateNr. PDF Arg0 Arg1 Rate(optional)[c/s]
+#
+0 constant 5.0e+12 0.0
+1 constant 10e-6 0.0
+#
+#	PCR=100.000c/s, SCR=50.000c/s, Burstfaktor=2
+#
+# Matrix der Uebergangsraten
+#
+# (Zeile)(Spalte) = (i)(j)
+# ij : state i -> state j
+# Diagonalelemente entweder 0 oder -Sum(Rest_der_Zeile)
+#
+# hier: gleiche Aufenthaltswahrscheinlichkeit in jedem Zustand
+#	/Periode=200us, p1=p2=0.5
+#
+0.0 10e3
+10e3 0.0

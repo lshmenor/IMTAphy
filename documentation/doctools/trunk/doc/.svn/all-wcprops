@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/projects/!svn/ver/66595/doctools/trunk/doc
+END
+changes.rst
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/!svn/ver/64200/doctools/trunk/doc/changes.rst
+END
+builders.rst
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/64531/doctools/trunk/doc/builders.rst
+END
+intro.rst
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/!svn/ver/66593/doctools/trunk/doc/intro.rst
+END
+rest.rst
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/!svn/ver/64295/doctools/trunk/doc/rest.rst
+END
+contents.rst
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/64486/doctools/trunk/doc/contents.rst
+END
+examples.rst
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/64486/doctools/trunk/doc/examples.rst
+END
+concepts.rst
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/66595/doctools/trunk/doc/concepts.rst
+END
+extensions.rst
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65552/doctools/trunk/doc/extensions.rst
+END
+glossary.rst
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/62634/doctools/trunk/doc/glossary.rst
+END
+templating.rst
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/66583/doctools/trunk/doc/templating.rst
+END
+config.rst
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/!svn/ver/66477/doctools/trunk/doc/config.rst
+END
+conf.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/!svn/ver/66595/doctools/trunk/doc/conf.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/!svn/ver/61932/doctools/trunk/doc/Makefile
+END

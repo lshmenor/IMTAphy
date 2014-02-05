@@ -1,0 +1,23 @@
+# markov_d_onoff1.gdf
+#
+# Number of States
+#
+N = 2
+#
+# Distributions for the packets in the single states
+#
+# StateNr. PDF Arg0 Arg1
+#
+0 constant 0.0 0.0
+1 constant 1.0 0.0
+#
+#	PCR=linkrate, SCR=linkrate/2
+#
+# Matrix (probabilities)
+#
+# ij : state i -> state j
+#
+#	/periode=20, p1=p2=0.5
+#
+0.900 0.100
+0.100 0.900 

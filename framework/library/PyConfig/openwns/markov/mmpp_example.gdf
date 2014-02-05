@@ -1,0 +1,28 @@
+# mmpp_example.gdf
+#
+# Example FILE for MARKOV_SRC_01 !!!!!!
+#
+# Number of States
+#
+N = 5
+#
+# Arguments
+#
+# StateNr. PDF Arg0 Arg1 Rate(optional)[c/s]
+#
+0 exponential 5.0e-6 0.0
+1 exponential 1.2e-6 0.0
+2 exponential 1.0e+6 0.0
+3 exponential 2.0e-6 0.0
+4 exponential 1.0e-6 0.0
+#
+#
+# Matrix der Uebergangsraten
+#
+# ij : state i -> state j
+#
+0.0 5.0e+2 5.0e+2 5.0e+2 5.0e+2
+5.0e+2 0.0 5.0e+2 5.0e+2 5.0e+2
+5.0e+2 5.0e+2 0.0 5.0e+2 5.0e+2
+5.0e+2 5.0e+2 5.0e+2 0.0 5.0e+2
+5.0e+2 5.0e+2 5.0e+2 5.0e+2 0.0 

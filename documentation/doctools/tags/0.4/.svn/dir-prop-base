@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 37
+build
+dist
+art
+Sphinx.egg-info
+*.egg
+
+END

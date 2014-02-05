@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/66252/doctools/branches/0.4.x/sphinx/templates
+END
+page.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/templates/page.html
+END
+layout.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/65550/doctools/branches/0.4.x/sphinx/templates/layout.html
+END
+genindex-single.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/projects/!svn/ver/66252/doctools/branches/0.4.x/sphinx/templates/genindex-single.html
+END
+genindex.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66252/doctools/branches/0.4.x/sphinx/templates/genindex.html
+END
+opensearch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/templates/opensearch.xml
+END
+search.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/66252/doctools/branches/0.4.x/sphinx/templates/search.html
+END
+defindex.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/templates/defindex.html
+END
+modindex.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/!svn/ver/66252/doctools/branches/0.4.x/sphinx/templates/modindex.html
+END
+genindex-split.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projects/!svn/ver/66252/doctools/branches/0.4.x/sphinx/templates/genindex-split.html
+END

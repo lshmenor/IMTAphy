@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx
+END
+_jinja.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/_jinja.py
+END
+quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/quickstart.py
+END
+linkcheck.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/linkcheck.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/__init__.py
+END
+htmlwriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/htmlwriter.py
+END
+application.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/application.py
+END
+environment.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/environment.py
+END
+search.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/search.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/config.py
+END
+highlighting.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/highlighting.py
+END
+latexwriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/latexwriter.py
+END
+htmlhelp.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/htmlhelp.py
+END
+textwriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/textwriter.py
+END
+addnodes.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/addnodes.py
+END
+roles.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/roles.py
+END
+builder.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/builder.py
+END

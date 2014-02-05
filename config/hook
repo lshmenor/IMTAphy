@@ -5,17 +5,62 @@
 
 function commit()
 {
-	# how to define an empty bash function?
-	initially="left empty"
+	# prepare user
+	tla cat-log -A $ARCH_ARCHIVE $ARCH_REVISION > ,,$ARCH_REVISION.mail
+
+	echo -e "\n\n-----------------------------------------------\n" >> ,,$ARCH_REVISION.mail
+	echo -e "Statistics on commits:\nAbsolute frequency of commits by user" >> ,,$ARCH_REVISION.mail
+	tla changelog -A $ARCH_ARCHIVE \
+	| grep -e "[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} [0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\} GMT" \
+	| cut -f 2 \
+	| sort \
+	| uniq -c \
+	| sort -bgr >> ,,$ARCH_REVISION.mail
+
+	echo -e "\n\nAbsolute frequency of commits by hour" >> ,,$ARCH_REVISION.mail
+	tla changelog -A $ARCH_ARCHIVE \
+	| grep -e "[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\} [0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\} GMT" \
+	| cut -f 1 \
+	| cut -d " " -f 2 \
+	| cut -d ":" -f 1 \
+	| sort \
+	| sed -e 's/$/ hour/g'\
+	| sort \
+	| uniq -c >> ,,$ARCH_REVISION.mail
+
+	DIFFSIZE=$(ls -s ,,$ARCH_REVISION.changes | cut -d" " -f 1)
+	LIMIT=500
+	if [ $DIFFSIZE -le $LIMIT ]
+	then
+		echo -e "\n\n-----------------------------------------------\n" >> ,,$ARCH_REVISION.mail
+		echo -e "These are the changes of the modified files:" >> ,,$ARCH_REVISION.mail
+		cat  ,,$ARCH_REVISION.changes >> ,,$ARCH_REVISION.mail
+	else
+		echo -e "\n\n-----------------------------------------------\n" >> ,,$ARCH_REVISION.mail
+		echo -e "The changes of the modified files have been stripped," >> ,,$ARCH_REVISION.mail
+		echo -e "because their size exceeded ${LIMIT} kB." >> ,,$ARCH_REVISION.mail
+		echo -e "\nYou can still look them up under:\n\nhttp://arch.comnets.rwth-aachen.de/\n" >> ,,$ARCH_REVISION.mail
+	fi
+
+        ARCH_USER_MAIL_ADDRESS=`cat $HOME/.arch-params/=id`
+
+	echo "Sending mail."
+	SUBJECT="Commit on: ${ARCH_REVISION} (${ARCH_ARCHIVE})"
+	cat ,,$ARCH_REVISION.mail | nail -s "${SUBJECT}" -r "${ARCH_USER_MAIL_ADDRESS}" ${RECIPIENTS}
+	rm -f ,,$ARCH_REVISION.mail
+	rm -f ,,$ARCH_REVISION.changes
+	echo "Done sending mail."
 }
 
 function precommit()
 {
-	# how to define an empty bash function?
-	initially="left empty"
+	tla changes --diffs -q > ,,$ARCH_REVISION.changes
+	# It's important to exit with code 0. Otherwise
+	# tla won't commit
+	exit 0
 }
 
-wnsRoot=$(tla tree-root)
+wnsRoot=`pwd`
 inTree=0
 
 while [ $inTree -eq 0 ]; do
@@ -27,4 +72,4 @@ while [ $inTree -eq 0 ]; do
    fi
 done
 
-source ${wnsRoot}/config/hook
+source ${wnsRoot}/config/commitMailRecipients

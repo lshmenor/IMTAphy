@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/!svn/ver/66444/doctools/trunk/sphinx/ext
+END
+coverage.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/66444/doctools/trunk/sphinx/ext/coverage.py
+END
+intersphinx.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/65500/doctools/trunk/sphinx/ext/intersphinx.py
+END
+autodoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/66407/doctools/trunk/sphinx/ext/autodoc.py
+END
+pngmath.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/66257/doctools/trunk/sphinx/ext/pngmath.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/66396/doctools/trunk/sphinx/ext/__init__.py
+END
+refcounting.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/61134/doctools/trunk/sphinx/ext/refcounting.py
+END
+ifconfig.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/63506/doctools/trunk/sphinx/ext/ifconfig.py
+END
+mathbase.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/65568/doctools/trunk/sphinx/ext/mathbase.py
+END
+doctest.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/65993/doctools/trunk/sphinx/ext/doctest.py
+END
+jsmath.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/66257/doctools/trunk/sphinx/ext/jsmath.py
+END

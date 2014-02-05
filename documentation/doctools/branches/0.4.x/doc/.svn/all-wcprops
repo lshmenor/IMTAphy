@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/!svn/ver/66061/doctools/branches/0.4.x/doc
+END
+changes.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/changes.rst
+END
+builders.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/builders.rst
+END
+intro.rst
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/65640/doctools/branches/0.4.x/doc/intro.rst
+END
+rest.rst
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/rest.rst
+END
+contents.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/contents.rst
+END
+examples.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/examples.rst
+END
+concepts.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64725/doctools/branches/0.4.x/doc/concepts.rst
+END
+extensions.rst
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/extensions.rst
+END
+glossary.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/glossary.rst
+END
+templating.rst
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/templating.rst
+END
+config.rst
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/64710/doctools/branches/0.4.x/doc/config.rst
+END
+conf.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/66061/doctools/branches/0.4.x/doc/conf.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/Makefile
+END

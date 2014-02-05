@@ -1,0 +1,60 @@
+/**
+ @page wns_documentation_documentationvscomments Documentation vs Comments
+
+@todo extend to C++ scope
+
+Comments and documentation are different: Comments explain a tricky or
+hard to understand part of source code (otherwise there is no need to
+write a comment ;)), or summarize the purpose of a few lines of code
+(on the other hand: if you need to write a comment there you might
+consider putting it into an own method ...). Hence, comments appear in
+methods. Like this:
+
+@verbatim
+def foo():
+    ... some code in advance ...
+    # print a c++ source file without comments
+    for line in theFile:
+        if not line.startswith("//"):
+            print line
+@endverbatim
+
+However most of the stuff we're doing in PyConfig-files is writing
+documentation. Documentation looks a little different in
+python. Mainly you want to document classes and methods. Python has
+feature called doc strings for that. Doc strings are multi-line
+strings (multi-line strings are enclosed in triple quotes) placed
+BELOW the element you want to write documentation for:
+
+@verbatim
+class Foo:
+    """ This class is initially left empty
+
+        There will be no upgrades or bug fixes to this class """
+@endverbatim
+
+This is way how to write documenatation. The main reason for this is
+that the built-in documentation system can parse the above structure
+and will give you something like this (executed in a python-shell):
+
+@verbatim
+$ python
+>>> class Foo:
+...     """ This class is initially left empty
+...
+...         There will be no upgrades or bug fixes to this class """
+...
+>>> help(Foo)
+
+Help on class Foo in module __main__:
+
+class Foo
+ |  This class is initially left empty
+ |
+ |  There will be no upgrades or bug fixes to this class
+@endverbatim
+
+Please keep this in mind when writing documentation and when writing
+comments.
+
+*/

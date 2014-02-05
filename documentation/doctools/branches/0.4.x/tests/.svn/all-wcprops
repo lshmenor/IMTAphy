@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/!svn/ver/65701/doctools/branches/0.4.x/tests
+END
+test_quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/!svn/ver/65375/doctools/branches/0.4.x/tests/test_quickstart.py
+END
+path.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/65101/doctools/branches/0.4.x/tests/path.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/65699/doctools/branches/0.4.x/tests/util.py
+END
+test_build.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/65699/doctools/branches/0.4.x/tests/test_build.py
+END
+test_markup.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/65623/doctools/branches/0.4.x/tests/test_markup.py
+END
+test_application.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/65701/doctools/branches/0.4.x/tests/test_application.py
+END
+run.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/64537/doctools/branches/0.4.x/tests/run.py
+END
+test_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/65699/doctools/branches/0.4.x/tests/test_config.py
+END
+test_env.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/65380/doctools/branches/0.4.x/tests/test_env.py
+END

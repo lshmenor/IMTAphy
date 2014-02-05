@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ "$1" == "-i" ]; then
+  shift
+  grepopts="-H -n -i"
+else
+  grepopts="-H -n"
+fi
+find src/ -exec grep $grepopts "$1" {} \; | grep -v "~"
+if [ -d addOn ]; then
+  find addOn/src/ -exec grep $grepopts "$1" {} \; | grep -v "~"
+fi
+find PyConfig/ -exec grep $grepopts "$1" {} \; | grep -v "~"
+if [ -d addOn ]; then
+  find addOn/PyConfig/ -exec grep $grepopts "$1" {} \; | grep -v "~"
+fi
+

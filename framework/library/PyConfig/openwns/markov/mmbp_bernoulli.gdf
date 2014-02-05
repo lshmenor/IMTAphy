@@ -1,0 +1,21 @@
+# mmbp_bernoulli.gdf
+#
+# Rainer Schoenen, 09.12.1997
+#
+# nur eine Bernoulli-Quelle ohne Markov-Modulation
+#
+# Number of States
+#
+N = 1
+#
+# Distributions for the packets in the single states
+#
+# StateNr. PDF Arg0 Arg1
+#
+0 bernoulli 1.0 0.0
+#
+# Matrix (probabilities)
+# ij : state i -> state j
+#
+#
+1.0

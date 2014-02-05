@@ -1,0 +1,25 @@
+# mmbp_example_03.gdf
+#
+# Number of States
+#
+N = 5
+#
+# Distributions for the packets in the single states
+#
+# StateNr. PDF Arg0 Arg1
+#
+0 binomial 0.5 4.0
+1 binomial 0.7 2.0
+2 binomial 0.1 6.0
+3 binomial 0.9 6.0
+4 binomial 0.6 1.0
+#
+# Matrix (probabilities)
+# ij : state i -> state j
+# 
+#
+0.990 0.001 0.001 0.001 0.007
+0.002 0.990 0.002 0.001 0.005 
+0.006 0.002 0.980 0.007 0.005 
+0.009 0.001 0.002 0.980 0.008
+0.001 0.001 0.001 0.001 0.996

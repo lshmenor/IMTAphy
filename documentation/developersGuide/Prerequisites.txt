@@ -1,0 +1,55 @@
+/**
+
+@page prerequisites Prerequisites
+
+openWNS relies on a number of third party software. Each of the listed
+libraries and programs below are freely available. openWNS is built
+entirely around free software. Some of the software is optional.
+
+
+<b>Third party libraries:</b>
+<ul>
+
+<li><a href="http://cppunit.sourceforge.net/">CppUnit</a>
+(>=1.10)<br>The basic unit testing framework</li>
+
+<li><a href="http://www.python.org">Python</a> (>=2.4)<br>Used by
+almost everything starting from the build framework to configuration
+</li>
+
+<li><a href="http://www.boost.org/">Boost</a><br>Mainly used to have the
+TR1 implementations of the upcoming C++ standard available</li>
+
+</ul>
+
+<b>Build framework:</b>
+
+<ul>
+
+<li><a href="http://bazaar-vcs.org/">Bazaar</a><br>The Revision Control System</li>
+
+<li><a href="http://www.scons.org">SCons</a> (>=0.96)<br> A make
+replacement </li>
+
+<li><a href="http://gcc.gnu.org/">GCC</a> (>=3.4) <br> Compiler Suite,
+due to usage of special language features regarding templates the
+versions below 3.4 do not work</li>
+
+</ul>
+
+<b>Optional for build framework:</b>
+
+<ul>
+
+<li><a href="http://www.doxygen.org/">Doxygen</a><br>Documentation is
+generated with this tool</li>
+
+<li><a href="http://www.graphviz.org/">Graphviz (Dot)</a><br>Used by
+doxygen to create nice UML diagrams</li>
+
+<li><a href="http://wiki.kde.org/icecream">Icecream</a><br>Allows for
+distributed compiling</li>
+
+</ul>
+
+*/

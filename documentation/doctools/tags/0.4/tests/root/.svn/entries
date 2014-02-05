@@ -1,0 +1,86 @@
+8
+
+dir
+66883
+http://svn.python.org/projects/doctools/tags/0.4/tests/root
+http://svn.python.org/projects
+
+
+
+2008-06-05T08:58:43.629236Z
+63954
+georg.brandl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6015fed2-1504-0410-9fe1-9d1591cc4771
+
+_static
+dir
+
+ext.py
+file
+
+
+
+
+2008-10-13T14:08:37.000000Z
+d0cbc8987db569af5a6ed741437d926c
+2008-06-05T08:58:43.629236Z
+63954
+georg.brandl
+has-props
+
+contents.txt
+file
+
+
+
+
+2008-10-13T14:08:37.000000Z
+619bfc8975ddf9b4f084a15114d89972
+2008-06-05T08:58:43.629236Z
+63954
+georg.brandl
+has-props
+
+conf.py
+file
+
+
+
+
+2008-10-13T14:08:37.000000Z
+ce94c5d6ae1d5d26c7f4a57f1e23f197
+2008-06-05T08:58:43.629236Z
+63954
+georg.brandl
+has-props
+
+_templates
+dir
+
+Makefile
+file
+
+
+
+
+2008-10-13T14:08:37.000000Z
+5bbe3f5456e0fd5d4e9e3da7c43168c4
+2008-06-05T08:58:43.629236Z
+63954
+georg.brandl
+has-props
+

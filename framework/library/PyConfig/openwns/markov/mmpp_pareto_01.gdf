@@ -1,0 +1,43 @@
+# mmpp_pareto_01.gdf
+#
+# Model for self-similar traffic
+#
+# Recommended parameters in Markov model QM*:
+#
+#	GDF File:		mmpp_pareto_01
+#	transition pdf:		pareto
+#	chains_per_cid		10
+#	pdf arg:		1.2	# beta
+#	rate_scale:		15.0
+#	transition_scale:	1.0
+#
+#
+# Number of States
+#
+N = 2
+#
+# Arguments
+#
+# StateNr. PDF Arg0 Arg1 Rate(optional)[c/s]
+#
+0 constant 5.0e+12 0.0
+1 exponential 100e-6 0.0
+#
+#	PCR=100.000c/s, SCR=50.000c/s, Burstfaktor=2
+#
+# Matrix der Uebergangsraten
+#
+# (Zeile)(Spalte) = (i)(j)
+# ij : state i -> state j
+# Diagonalelemente entweder 0 oder -Sum(Rest_der_Zeile)
+#
+# hier: gleiche Aufenthaltswahrscheinlichkeit in jedem Zustand
+#	p1=p2=0.5
+#
+# Pareto-Parameter:
+#	lambda_ij -> a_ij=1/lambda_ij (arg0)
+#	b=beta=1.2 [Paper Taqqu]
+#	=> E(trans_time)=a*b/(b-1)=6*a
+#
+0.0 100
+100 0.0

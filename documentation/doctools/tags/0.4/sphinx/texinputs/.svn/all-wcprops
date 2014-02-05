@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs
+END
+python.ist
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs/python.ist
+END
+howto.cls
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs/howto.cls
+END
+tabulary.sty
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs/tabulary.sty
+END
+sphinx.sty
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs/sphinx.sty
+END
+fncychap.sty
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs/fncychap.sty
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs/Makefile
+END
+manual.cls
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/64485/doctools/tags/0.4/sphinx/texinputs/manual.cls
+END

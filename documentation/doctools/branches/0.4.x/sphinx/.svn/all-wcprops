@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/!svn/ver/66847/doctools/branches/0.4.x/sphinx
+END
+_jinja.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/_jinja.py
+END
+quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66397/doctools/branches/0.4.x/sphinx/quickstart.py
+END
+linkcheck.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/64703/doctools/branches/0.4.x/sphinx/linkcheck.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66847/doctools/branches/0.4.x/sphinx/__init__.py
+END
+htmlwriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66355/doctools/branches/0.4.x/sphinx/htmlwriter.py
+END
+application.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/65529/doctools/branches/0.4.x/sphinx/application.py
+END
+environment.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/65567/doctools/branches/0.4.x/sphinx/environment.py
+END
+search.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/search.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/config.py
+END
+highlighting.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/65625/doctools/branches/0.4.x/sphinx/highlighting.py
+END
+latexwriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/65625/doctools/branches/0.4.x/sphinx/latexwriter.py
+END
+htmlhelp.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/htmlhelp.py
+END
+textwriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/65526/doctools/branches/0.4.x/sphinx/textwriter.py
+END
+addnodes.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx/addnodes.py
+END
+roles.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/65122/doctools/branches/0.4.x/sphinx/roles.py
+END
+builder.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/65625/doctools/branches/0.4.x/sphinx/builder.py
+END

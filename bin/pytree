@@ -1,0 +1,197 @@
+#! /usr/bin/env python
+
+import types
+import sys
+import imp
+import os
+
+def searchPathToSDK(path):
+    rootSign = ".thisIsTheRootOfWNS"
+    while rootSign not in os.listdir(path):
+        if path == os.sep:
+            # arrived in root dir
+            return None
+        path, tail = os.path.split(path)
+    return os.path.abspath(path)
+
+class PyTree:
+    maxSequence = 10
+
+    basicTypes = [
+        types.IntType,
+        types.FloatType,
+        types.StringType,
+        types.BooleanType,
+        types.NoneType,
+        ]
+
+    ignorePaths = [
+        '/usr/lib/python',
+        ]
+
+    ignoreTypes = [
+        types.FunctionType,
+        types.MethodType,
+        types.BuiltinFunctionType,
+        types.BuiltinMethodType
+        ]
+
+    def __init__(self, options):
+        self.objs = {}
+        self.options = options
+
+        if options.ignorePaths:
+            self.ignorePaths += options.ignorePaths.split(':')
+
+        if options.sandboxFlavour:
+            pathToSDK = searchPathToSDK(os.path.abspath(os.path.dirname(sys.argv[0])))
+
+	    if pathToSDK is None:
+                print "Error! You are not within an openWNS-SDK. Giving up"
+                exit(1)
+
+	    sys.path.append(os.path.join(pathToSDK, "sandbox", options.sandboxFlavour, "lib", "PyConfig"))
+
+    def scan(self, obj, name = ''):
+        # shortcut ignores:
+        if type(obj) in self.ignoreTypes:
+            return
+        if isinstance(obj, PyTree):
+            return
+        if obj == PyTree:
+            return
+
+        # we always want simple types to get printed
+        if type(obj) in self.basicTypes:
+            print "%s: %s" % (name, repr(obj))
+            return
+
+        # short sequences (not longer than self.maxSequence)
+        # that contain basicTypes only, will get printed in
+        # one line...
+        if (type(obj) in [types.ListType,
+                         types.TupleType]
+            and len(obj) <= self.maxSequence
+            and not len([it for it in obj
+                         if type(it) not in self.basicTypes])):
+
+            fmt = "%s: "
+            if type(obj) == types.ListType:
+                fmt += "[%s]"
+            else:
+                fmt += "(%s)"
+
+            print fmt % (name, ', '.join(map(repr, obj)))
+            return
+
+        # if we already know an object, we just just print
+        # a symbolic reference.
+        # this helps to avoid infinite recursions and reduces
+        # the output in general
+        if id(obj) in self.objs:
+            print "%s -> %s" % (name, self.objs[id(obj)])
+            return
+        self.objs[id(obj)] = name
+
+        # here come the more comples types...
+        if type(obj) in [types.ListType,
+                         types.TupleType]:
+            for n, it in enumerate(obj):
+                self.scan(it, "%s[%d]" % (name, n))
+
+        elif type(obj) == types.DictType:
+            for key, it in obj.items():
+                self.scan(it, "%s[%s]" % (name, repr(key)))
+
+        elif (type(obj) in [types.ClassType,
+                            types.ModuleType,
+                            types.InstanceType,
+                            types.TypeType]
+            or hasattr(type(obj), '__class__')):
+
+            print "%s: %s" % (name, obj)
+
+            # for modules we have some extra code to suppress
+            # recursion into std python modules...
+            if type(obj) == types.ModuleType:
+                # builtin modules don't have a __file__ attribute, and we
+                # don't want builtin modules to show up in our dump
+                if (obj.__name__ != '__main__'
+                    and not hasattr(obj, '__file__')):
+                    return
+
+                for nono in self.ignorePaths:
+                    if obj.__file__.startswith(nono):
+                        return
+
+            delimiter = {types.ModuleType: '::',
+                         types.ClassType: ':',
+                         types.TypeType: ':'}.setdefault(type(obj), '.')
+
+            for it in dir(obj):
+                if self.skip(it):
+                    continue
+
+                self.scan(getattr(obj, it), "%s%s%s" % (name, delimiter, it))
+
+        else:
+            print "%s: %s (fallback)" % (name, obj)
+            for it in dir(obj):
+                if self.skip(it):
+                    continue
+
+    def skip(self, name):
+        return name.startswith('_')
+
+
+import optparse
+
+def addPath(option, opt, value, parser):
+    sys.path.append(value)
+
+parser = optparse.OptionParser(usage = "pytree [OPTIONS] <CONFIGFILE.PY>")
+parser.add_option('-p', '--path', type='string', action='callback', callback=addPath, help='Path to sandbox PyConfig (e.g. ../../../sandbox/dbg/lib/PyConfig)')
+parser.add_option('-c', '--console', default=True, action='store_false', dest='gui')
+parser.add_option('-i', '--ignore', type='string', action='store', dest='ignorePaths')
+parser.add_option('-f', '--flavour', type='string', default='dbg', action='store', dest='sandboxFlavour')
+
+(options, args) = parser.parse_args()
+
+if len(args) < 1:
+	parser.print_help()
+	import sys
+	sys.exit(1)
+
+sys.path = ["."] + sys.path
+
+tree = PyTree(options)
+
+import wx
+import libpytree.filling
+
+if options.gui == True:
+    WNSConfiguration = imp.load_module('mainconfig', file(args[0]), 'mainconfig', ('.py', 'r', imp.PY_SOURCE))
+    app = libpytree.filling.App(rootObject=WNSConfiguration,
+                                rootLabel = str(args[0]),
+                                filename = os.path.abspath(args[0]),
+                                title='PyTree - The openWNS Configuration Browser [%s]' % str(args[0]))
+
+    # some cleanup to have nicer namepsace viewer
+    del args
+    del options
+    del optparse
+    del sys
+    del tree
+    del types
+    del PyTree
+    del imp
+    del parser
+    del addPath
+    app.MainLoop()
+
+    import os
+    os.remove('./mainconfigc')
+else:
+    for it in args:
+        module = imp.load_module('foo', file(it), 'foo', ('.py', 'r', imp.PY_SOURCE))
+        tree.scan(module, '')

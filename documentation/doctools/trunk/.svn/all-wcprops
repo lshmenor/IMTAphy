@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/projects/!svn/ver/66845/doctools/trunk
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/!svn/ver/59917/doctools/trunk/LICENSE
+END
+babel.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/!svn/ver/66258/doctools/trunk/babel.cfg
+END
+ez_setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/!svn/ver/65497/doctools/trunk/ez_setup.py
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/!svn/ver/59918/doctools/trunk/AUTHORS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/projects/!svn/ver/66410/doctools/trunk/TODO
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/!svn/ver/66354/doctools/trunk/setup.py
+END
+sphinx-quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/64488/doctools/trunk/sphinx-quickstart.py
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/!svn/ver/66606/doctools/trunk/CHANGES
+END
+sphinx-build.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/!svn/ver/64488/doctools/trunk/sphinx-build.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/projects/!svn/ver/61996/doctools/trunk/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/!svn/ver/65630/doctools/trunk/Makefile
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/!svn/ver/65597/doctools/trunk/setup.cfg
+END
+EXAMPLES
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/!svn/ver/66845/doctools/trunk/EXAMPLES
+END

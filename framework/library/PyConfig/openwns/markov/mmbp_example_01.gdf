@@ -1,0 +1,22 @@
+# mmbp_example_01.gdf
+#
+# Number of States
+#
+N = 3
+#
+# Distributions for the packets in the single states
+#
+# StateNr. PDF Arg0 Arg1
+#
+0 poisson 8.0 0.0
+1 poisson 3.0 0.0
+2 poisson 1.0 0.0
+#
+# Matrix (probabilities)
+#
+# ij : state i -> state j
+#
+#
+0.990 0.005 0.005
+0.005 0.990 0.005  
+0.005 0.005 0.990 

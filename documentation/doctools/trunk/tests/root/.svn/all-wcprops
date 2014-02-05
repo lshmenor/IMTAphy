@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/!svn/ver/66444/doctools/trunk/tests/root
+END
+img.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65497/doctools/trunk/tests/root/img.png
+END
+img.gif
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65497/doctools/trunk/tests/root/img.gif
+END
+images.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/65497/doctools/trunk/tests/root/images.txt
+END
+includes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/65497/doctools/trunk/tests/root/includes.txt
+END
+img.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65497/doctools/trunk/tests/root/img.pdf
+END
+literal.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/65497/doctools/trunk/tests/root/literal.inc
+END
+ext.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/63954/doctools/trunk/tests/root/ext.py
+END
+math.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/65555/doctools/trunk/tests/root/math.txt
+END
+wrongenc.inc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/65497/doctools/trunk/tests/root/wrongenc.inc
+END
+contents.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/66406/doctools/trunk/tests/root/contents.txt
+END
+conf.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/66444/doctools/trunk/tests/root/conf.py
+END
+autodoc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/66443/doctools/trunk/tests/root/autodoc.txt
+END
+markup.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/65557/doctools/trunk/tests/root/markup.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/63954/doctools/trunk/tests/root/Makefile
+END

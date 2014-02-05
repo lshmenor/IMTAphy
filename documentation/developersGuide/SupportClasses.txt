@@ -1,0 +1,6 @@
+/**
+@page supportclasses Support Classes
+
+  -# @subpage wns::SmartPtr
+  -# @subpage StaticFactoryPage
+*/

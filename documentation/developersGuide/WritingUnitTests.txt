@@ -1,0 +1,15 @@
+/**
+
+@page wns_documentation_writingunittests Writing Unit Tests
+
+ \tableOfContents
+
+@section wns_documentation_writingunittests_cpp Writing C++ Unit Tests
+WNS uses cppunit for unit testing. The full manual is available at
+http://cppunit.sourceforge.net/. Here, you will be shown the basics of
+writing unit tests in openWNS to get you started quickly.
+
+@subsection wns_documentation_writingunittests_cpp_quickstart Quickstart
+
+
+*/

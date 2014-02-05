@@ -1,0 +1,5 @@
+/**
+   @namespace glue::convergence
+
+   @brief Contains everything regarding convergence towards PHY or IP
+*/

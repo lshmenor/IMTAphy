@@ -1,0 +1,43 @@
+/**
+
+@page wns_documentation_introduction Introduction
+
+@todo Rewrite and clean up docu
+
+@todo The old file contained the descriptions of the protocol modules. This needs to be added dynamically based on Doxygen-Modules!
+
+openWNS is a modular, highly flexible framework for the investigation
+and performance evaluation of wireless systems. It allows for
+stochastic, event-driven simulations.
+
+@section structure Overall Structure
+
+In the next two subsections some of the basic modules and mechanisms from WNS
+are explained. The first part gives details on how modules are loaded and
+communicating with each other. Miscellaneous aspects, like methods for
+parametrisation or gathering of measurements, are explained in more detail in
+the second subsection.
+
+@subsection corefunc Core Functionality
+
+The WNS contains of only one executable \e wns-core, which is mostly a module
+loader to include the other required parts. All modules are by default
+compiled as shared libraries and loaded on demand during start-up. From a
+general perspective, communication among them is based on function calls. To
+avoid naming conflicts, several times C++ name spaces are used. In this way,
+also the two core libraries SPEETCL and LIBWNS are included in every
+simulation. They provide various helper functions and the fundamental classes
+for event-driven simulations with one global timing.
+
+@subsection helpfunc Helper Functions
+
+Apart from the module handling and global scheduling, several other functions
+are provided by the core libraries. Two major groups are the generation of
+various (pseudo) random numbers and initial evaluation of simulation
+results. In general, measurements of specific parameters can be taken at
+arbitrary positions by means of so-called probes. Probes are gathered at
+periodic intervals, while the internal evaluation functions allow for initial
+statistical evaluations, like major indicators or the generation of CDFs.
+
+
+*/

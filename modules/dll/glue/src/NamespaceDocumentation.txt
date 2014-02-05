@@ -1,0 +1,13 @@
+/**
+ * @namespace glue
+ *
+ * @brief GLUE is an adapter for a DLL of a protocol stack
+ *
+ * A protocol stack normally consists of various layers (like TCP, IP,
+ * DLL). These layers offer different services which allows other layers to
+ * communicate with them. The services are special for each layer. GLUE provides
+ * a set of adapter Functional Units that provide services for data link layers
+ * to speak with other layers (various PHY layers and IP). These adapater
+ * Functional Units are part of a Functional Unit Network which is configured at
+ * run-time, thus providing a maximum of flexibility.
+ */

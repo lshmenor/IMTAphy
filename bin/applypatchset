@@ -1,0 +1,32 @@
+#!/bin/bash
+set -e
+
+if tla tree-version 2> /dev/null
+then
+SOURCE_TGZ=$1
+SOURCE=$(basename $SOURCE_TGZ .tgz)
+TMP=/tmp/applypatch.$$/
+
+# the following command will fail, if there is already a directory
+# with the same name. you might want to delete the directory by hand.
+mkdir $TMP
+tar -C $TMP -xvzf $SOURCE_TGZ
+tla apply-changeset $TMP$SOURCE .
+rm -rf $TMP
+exit 0
+fi
+if bzr status 2> /dev/null
+then
+SOURCE_TGZ=$1
+SOURCE=$(basename $SOURCE_TGZ .tgz)
+tar -xvzf $SOURCE_TGZ
+bzr merge bundle
+bzr commit -m "applypatchset merge for bundle"
+bzr unshelve --all
+# Cleanup
+rm -rf .shelf
+rm -rf bundle
+exit 0
+fi
+
+echo "Not in Bazaar or TLA branch."

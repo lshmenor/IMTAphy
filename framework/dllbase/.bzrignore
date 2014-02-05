@@ -1,0 +1,13 @@
+.sconsign.dblite
+.project
+.arch-ids
+{arch}
+addOn
+include
+build
+doxydoc
+config/pushMailRecipients.py
+config/pushMailRecipients.py
+config/private.py
+config/bversion.hpp
+.objs

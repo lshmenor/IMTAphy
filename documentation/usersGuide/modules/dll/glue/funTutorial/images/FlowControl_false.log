@@ -1,0 +1,148 @@
+TeXExec | processing document 'pdftrimwhite-FlowControl_false'
+TeXExec | no ctx file found
+TeXExec | tex processing method: context
+TeXExec | writing option file pdftrimwhite-FlowControl_false.top
+TeXExec | using randomseed 219
+TeXExec | tex engine: pdftex
+TeXExec | tex format: cont-en
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+ (/usr/share/texmf/web2c/natural.tcx)
+entering extended mode
+(./pdftrimwhite-FlowControl_false.tex
+
+ConTeXt  ver: 2007.09.28 16:52 MKII  fmt: 2010.5.28  int: english/english
+
+language        : language en is active
+system          : cont-new loaded
+(/usr/share/texmf/tex/context/base/cont-new.tex
+systems         : beware: some patches loaded from cont-new.tex
+(/usr/share/texmf/tex/context/base/cont-new.mkii)
+(/usr/share/texmf/tex/context/base/cont-mtx.tex))
+system          : cont-old loaded
+(/usr/share/texmf/tex/context/base/cont-old.tex
+loading         : Context Old Macros
+)
+system          : cont-fil loaded
+(/usr/share/texmf/tex/context/base/cont-fil.tex
+loading         : Context File Synonyms
+)
+system          : cont-sys.rme loaded
+(/etc/texmf/tex/context/user/cont-sys.rme
+(/usr/share/texmf/tex/context/base/type-tmf.tex)
+(/usr/share/texmf/tex/context/base/type-siz.tex)
+(/usr/share/texmf/tex/context/base/type-one.tex)
+(/usr/share/texmf/tex/context/base/type-akb.tex))
+bodyfont        : 12pt rm is loaded
+language        : patterns en->ec:ec->1->2:3 uk->ec:ec->2->2:3 de->texnansi:tex
+nansi->3->2:3 de->ec:ec->4->2:3 fr->texnansi:texnansi->5->2:3 fr->ec:ec->6->2:3
+ es->ec:ec->7->2:3 pt->texnansi:texnansi->8->2:3 pt->ec:ec->9->2:3 it->texnansi
+:texnansi->10->2:3 it->ec:ec->11->2:3 nl->texnansi:texnansi->12->2:3 nl->ec:ec-
+>13->2:3 cz->il2:il2->14->2:3 cz->ec:ec->15->2:3 sk->il2:il2->16->2:3 sk->ec:ec
+->17->2:3 pl->pl0:pl0->18->2:3 pl->ec:ec->19->2:3 pl->qx:qx->20->2:3 loaded
+specials        : tex,postscript,rokicki loaded
+system          : pdftrimwhite-FlowControl_false.top loaded
+(./pdftrimwhite-FlowControl_false.top
+CtxTools | purging temporary files : pdftrimwhite-FlowControl_false.tex
+CtxTools | checking files that match 'pdftrimwhite-FlowControl_false-*.*'
+CtxTools | checking files that match 'pdftrimwhite-FlowControl_false.*'
+CtxTools | removed : pdftrimwhite-FlowControl_false-mpgraph.mp
+CtxTools | removed : pdftrimwhite-FlowControl_false.tui
+CtxTools | removed : pdftrimwhite-FlowControl_false.top
+CtxTools | removed : pdftrimwhite-FlowControl_false.log
+CtxTools | removed : mpgraph.mp
+CtxTools | removed files : 5
+CtxTools | kept files : 0
+CtxTools | persistent files : 0
+CtxTools | reclaimed bytes : 5678
+TeXExec | runtime: 0.778116
+
+GPL Ghostscript 8.61 (2007-11-21)
+Copyright (C) 2007 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+Processing pages 1 through 1.
+Page 1
+Can't find (or can't open) font file /usr/share/ghostscript/8.61/Resource/Font/ArialMT.
+Can't find (or can't open) font file ArialMT.
+Can't find (or can't open) font file /usr/share/ghostscript/8.61/Resource/Font/ArialMT.
+Can't find (or can't open) font file ArialMT.
+Querying operating system for font files...
+Can't find (or can't open) font file /usr/share/ghostscript/8.61/Resource/Font/ArialMT.
+Can't find (or can't open) font file ArialMT.
+Didn't find this font on the system!
+Substituting font Helvetica for ArialMT.
+Loading NimbusSanL-Regu font from /var/lib/defoma/gs.d/dirs/fonts/n019003l.pfb... 2904060 1519853 3341308 820380 3 done.
+%%BoundingBox: 57 567 241 736
+%%HiResBoundingBox: 57.869998 567.799998 240.677993 735.097970
+
+   **** Warning: Fonts with Subtype = /TrueType should be embedded.
+                 The following fonts were not embedded:
+			Arial
+
+   **** This file had errors that were repaired or ignored.
+   **** The file was produced by: 
+   **** >>>> pdfTeX-1.40.3 <<<<
+   **** Please notify the author of the software that produced this
+   **** file that it does not conform to Adobe's published PDF
+   **** specification.
+
+
+TeXExec | processing document 'pdftrimwhite-FlowControl_false'
+TeXExec | no ctx file found
+TeXExec | tex processing method: context
+TeXExec | writing option file pdftrimwhite-FlowControl_false.top
+TeXExec | using randomseed 158
+TeXExec | tex engine: pdftex
+TeXExec | tex format: cont-en
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+ (/usr/share/texmf/web2c/natural.tcx)
+entering extended mode
+(./pdftrimwhite-FlowControl_false.tex
+
+ConTeXt  ver: 2007.09.28 16:52 MKII  fmt: 2010.5.28  int: english/english
+
+language        : language en is active
+system          : cont-new loaded
+(/usr/share/texmf/tex/context/base/cont-new.tex
+systems         : beware: some patches loaded from cont-new.tex
+(/usr/share/texmf/tex/context/base/cont-new.mkii)
+(/usr/share/texmf/tex/context/base/cont-mtx.tex))
+system          : cont-old loaded
+(/usr/share/texmf/tex/context/base/cont-old.tex
+loading         : Context Old Macros
+)
+system          : cont-fil loaded
+(/usr/share/texmf/tex/context/base/cont-fil.tex
+loading         : Context File Synonyms
+)
+system          : cont-sys.rme loaded
+(/etc/texmf/tex/context/user/cont-sys.rme
+(/usr/share/texmf/tex/context/base/type-tmf.tex)
+(/usr/share/texmf/tex/context/base/type-siz.tex)
+(/usr/share/texmf/tex/context/base/type-one.tex)
+(/usr/share/texmf/tex/context/base/type-akb.tex))
+bodyfont        : 12pt rm is loaded
+language        : patterns en->ec:ec->1->2:3 uk->ec:ec->2->2:3 de->texnansi:tex
+nansi->3->2:3 de->ec:ec->4->2:3 fr->texnansi:texnansi->5->2:3 fr->ec:ec->6->2:3
+ es->ec:ec->7->2:3 pt->texnansi:texnansi->8->2:3 pt->ec:ec->9->2:3 it->texnansi
+:texnansi->10->2:3 it->ec:ec->11->2:3 nl->texnansi:texnansi->12->2:3 nl->ec:ec-
+>13->2:3 cz->il2:il2->14->2:3 cz->ec:ec->15->2:3 sk->il2:il2->16->2:3 sk->ec:ec
+->17->2:3 pl->pl0:pl0->18->2:3 pl->ec:ec->19->2:3 pl->qx:qx->20->2:3 loaded
+specials        : tex,postscript,rokicki loaded
+system          : pdftrimwhite-FlowControl_false.top loaded
+(./pdftrimwhite-FlowControl_false.top
+CtxTools | purging temporary files : pdftrimwhite-FlowControl_false.tex
+CtxTools | checking files that match 'pdftrimwhite-FlowControl_false-*.*'
+CtxTools | checking files that match 'pdftrimwhite-FlowControl_false.*'
+CtxTools | removed : pdftrimwhite-FlowControl_false-mpgraph.mp
+CtxTools | removed : pdftrimwhite-FlowControl_false.tui
+CtxTools | removed : pdftrimwhite-FlowControl_false.top
+CtxTools | removed : pdftrimwhite-FlowControl_false.log
+CtxTools | removed : mpgraph.mp
+CtxTools | removed files : 5
+CtxTools | kept files : 0
+CtxTools | persistent files : 0
+CtxTools | reclaimed bytes : 9168
+TeXExec | runtime: 0.802864
+

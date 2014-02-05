@@ -1,0 +1,6 @@
+/**
+@page wns_documentation_createnewmodule Creating a new module
+
+@todo to be written refering to http://openwns.comnets.rwth-aachen.de/Wiki/CreateNewModule
+
+*/

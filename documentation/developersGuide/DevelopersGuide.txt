@@ -1,0 +1,35 @@
+/**
+
+@page wns_documentation_developersguide Developers Guide
+
+The developers guide provides information for researchers that want to
+extend the simulator in C++. If you feel you only want to use the simulator
+by means of configuration, you should perhaps better read the @ref wns_documentation_usermanual.
+
+The developers guide provides information on how to install openWNS, how to configure and setup simulations and how to configure your evaluation.
+
+Content of the developers Guide:
+
+  -# @subpage gettingstarted
+    -# @ref prerequisites
+    -# @ref download
+    -# @ref installation
+    -# @subpage wns_documentation_performancetips
+    -# @ref SDKLayout
+  -# Managing your SDK
+    -# @subpage wns_documentation_playground
+    -# @subpage wns_documentation_branchingandmerging
+  -# Writing your own code
+    -# @subpage wns_documentation_codingguidelines
+    -# @subpage wns_documentation_codingguidelines_short 
+    -# @subpage wns_documentation_documentationvscomments
+    -# @subpage wns_documentation_writingunittests
+  -# Using the simulation framework
+    -# Event Scheduling: @subpage schedulerBestPractices
+    -# Random Number Generation: @ref wns::rng
+    -# Reading Configuration: @ref wns::pyconfig
+    -# Adding Probes: @ref probing
+    -# @subpage supportclasses
+      -# @ref wns::SmartPtr
+      -# @ref StaticFactoryPage
+*/

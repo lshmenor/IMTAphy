@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/util
+END
+json.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/util/json.py
+END
+stemmer.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/util/stemmer.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/util/__init__.py
+END
+console.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/util/console.py
+END
+compat.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/util/compat.py
+END
+smartypants.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/util/smartypants.py
+END

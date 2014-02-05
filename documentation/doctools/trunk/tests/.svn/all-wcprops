@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/projects/!svn/ver/66482/doctools/trunk/tests
+END
+test_quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/65503/doctools/trunk/tests/test_quickstart.py
+END
+test_coverage.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/66444/doctools/trunk/tests/test_coverage.py
+END
+path.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/!svn/ver/65124/doctools/trunk/tests/path.py
+END
+test_autodoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/66406/doctools/trunk/tests/test_autodoc.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/!svn/ver/65993/doctools/trunk/tests/util.py
+END
+test_build.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/66406/doctools/trunk/tests/test_build.py
+END
+test_i18n.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65993/doctools/trunk/tests/test_i18n.py
+END
+test_markup.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/66482/doctools/trunk/tests/test_markup.py
+END
+test_application.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/65993/doctools/trunk/tests/test_application.py
+END
+run.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/!svn/ver/63954/doctools/trunk/tests/run.py
+END
+test_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/65993/doctools/trunk/tests/test_config.py
+END
+test_env.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/66396/doctools/trunk/tests/test_env.py
+END

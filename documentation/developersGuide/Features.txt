@@ -1,0 +1,85 @@
+/**
+
+@page wns_documentation_features Features
+
+@todo rewrite and clean up docu.
+
+openWNS follows a modular design philosophy. Consequently, even the core itself is managed in different projects:
+
+<ul>
+
+    <li> <b>openWNS SDK</b> - The Software Development Kit that makes your
+      development activities. It contains the necessary tools to
+      manage the other projects. It is the umbrella/master project for
+      all other projects.</li>
+
+    <li> <b>openWNS Library</b> - The core library of openWNS. Current
+      feature are:</li>
+
+    <ul>
+
+        <li> Event scheduling system (@ref wns::events)</li>
+        <li> Configuration system (@ref wns::pyconfig) </li>
+        <li> Logging system (@ref wns::logger) </li>
+        <li> Random Number Generation (@ref wns::rng) </li>
+        <li> Memory management (@ref wns::SmartPtr) </li>
+        <li> Debugging facilities (Signal handler, C++ backtraces,
+        ...) </li>
+        <li> Indirect object creation (@ref wns::StaticFactory) </li>
+        <li> Probing / taking measurements (@ref wns::probe::bus) <li>
+
+    </ul>
+
+    <li> <b>openWNS Application</b> - The executable and a very simple
+      project where you can quickly start off with you own
+      extensions.</li>
+
+    <li> <b>openWNS Documentation</b> - Contains general documentation (in
+      'Doxygen') about openWNS (how to download, features ...) </li>
+
+</ul>
+
+// old stuff
+
+<b>Features of WNS are</b>:
+
+<ul>
+<li> <b>Development Framework</b> </li>
+<ul>
+<li> <b>Highly modular structure</b> - Allows for easy integration of new code
+(even if only binary available)</li>
+<li> <b>Automated one-button build system</b> - Will install on an almost virgin machine</li>
+<li> <b>Sandbox installation</b> - Your system will not be cluttered with
+libraries you don't need for anything else (they are kept in a "sandbox")</li>
+<li> <b>Fully integrated online-updates</b> - Easy to stay at the head of the mainline</li>
+<li> <b>Self-Testing Builds</b> - Easy to run suite of automated tests</li>
+<li> <b>Fully integrated unit tests</b> - Based on CppUnit, you only need to
+write the test cases</li>
+<li> <b>Nightly builds</b> - Support to run nightly builds on a dedicated integration machine</li>
+</ul>
+
+<li> <b>Simulation Framework</b> </li>
+<ul>
+<li> <b>Scriptable configuration files</b> - Your configuration files are simply Python scripts</li>
+<li> <b>Scalability</b> - Exchange modules by simplified variants to decrease simulation run time (e.g. channel model)</li>
+<li> <b>Sophisticated online evaluation methods</b> - Statistical evaluation is done <em>while</em> the simulation is being run not afterwards, thus saving you time and disk space. Methods availble are:
+<ul>
+<li>Mean</li>
+<li>Variance</li>
+<li>PDF, CDF, CCDF</li>
+<li>Batch Means</li>
+<li>LRE</li>
+</ul>
+<li> <b>Random number generators</b> - Fibonacci, Linear congruence, Tausworth</li>
+<li> <b>Various distribution functions</b> - Uniform, normal, log-normal, negative exponential, ...</li>
+<li> <b>Event scheduler</b> - Simulations are carried out in an event driven manner, normal as well as real time event schedulers are available</li>
+<li> <b>Node oriented configuarion</b> - Just like in the real world you assemble your nodes (stations) using a number of configurable components</li>
+</ul>
+
+<li> <b>Available Modules</b><br>
+     See left side (Module Documentation)
+</li>
+</ul>
+
+
+*/

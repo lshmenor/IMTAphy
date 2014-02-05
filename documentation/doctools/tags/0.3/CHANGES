@@ -1,0 +1,260 @@
+Release 0.3 (May 6, 2008)
+=========================
+
+New features added
+------------------
+
+* The ``toctree`` directive now supports a ``glob`` option that allows
+  glob-style entries in the content.
+
+* If the `pygments_style` config value contains a dot it's treated as the
+  import path of a custom Pygments style class.
+
+* A new config value, `exclude_dirs`, can be used to exclude whole
+  directories from the search for source files.
+
+* The configuration directory (containing ``conf.py``) can now be set
+  independently from the source directory.  For that, a new command-line
+  option ``-c`` has been added.
+
+* A new directive ``tabularcolumns`` can be used to give a tabular column
+  specification for LaTeX output.  Tables now use the ``tabulary`` package.
+  Literal blocks can now be placed in tables, with several caveats.
+
+* A new config value, `latex_use_parts`, can be used to enable parts in LaTeX
+  documents.
+
+* Autodoc now skips inherited members for classes, unless you give the
+  new ``inherited-members`` option.
+
+* A new config value, `autoclass_content`, selects if the docstring of the
+  class' ``__init__`` method is added to the directive's body.
+
+* Support for C++ class names (in the style ``Class::Function``) in C function
+  descriptions.
+
+* Support for a ``toctree_only`` item in items for the ``latex_documents``
+  config value.  This only includes the documents referenced by TOC trees in the
+  output, not the rest of the file containing the directive.
+
+Bugs fixed
+----------
+
+* sphinx.htmlwriter: Correctly write the TOC file for any structure of the
+  master document.  Also encode non-ASCII characters as entities in TOC
+  and index file.  Remove two remaining instances of hard-coded
+  "documentation".
+
+* sphinx.ext.autodoc: descriptors are detected properly now.
+
+* sphinx.latexwriter: implement all reST admonitions, not just ``note``
+  and ``warning``.
+
+* Lots of little fixes to the LaTeX output and style.
+
+* Fix OpenSearch template and make template URL absolute.  The
+  `html_use_opensearch` config value now must give the base URL.
+
+* Some unused files are now stripped from the HTML help file build.
+
+
+Release 0.2 (Apr 27, 2008)
+==========================
+
+Incompatible changes
+--------------------
+
+* Jinja, the template engine used for the default HTML templates, is now
+  no longer shipped with Sphinx.  If it is not installed automatically for
+  you (it is now listed as a dependency in ``setup.py``), install it manually
+  from PyPI.  This will also be needed if you're using Sphinx from a SVN
+  checkout; in that case please also remove the ``sphinx/jinja`` directory
+  that may be left over from old revisions.
+
+* The clumsy handling of the ``index.html`` template was removed.  The config
+  value ``html_index`` is gone, and ``html_additional_pages`` should be used
+  instead.  If you need it, the old ``index.html`` template is still there,
+  called ``defindex.html``, and you can port your html_index template, using
+  Jinja inheritance, by changing your template::
+
+     {% extends "defindex.html" %}
+     {% block tables %}
+     ... old html_index template content ...
+     {% endblock %}
+
+  and putting ``'index': name of your template`` in ``html_additional_pages``.
+
+* In the layout template, redundant ``block``\s were removed; you should use
+  Jinja's standard ``{{ super() }}`` mechanism instead, as explained in the
+  (newly written) templating docs.
+
+New features added
+------------------
+
+* Extension API (Application object):
+
+  - Support a new method, ``add_crossref_type``.  It works like
+    ``add_description_unit`` but the directive will only create a target
+    and no output.
+  - Support a new method, ``add_transform``.  It takes a standard docutils
+    ``Transform`` subclass which is then applied by Sphinx' reader on
+    parsing reST document trees.
+  - Add support for other template engines than Jinja, by adding an
+    abstraction called a "template bridge".  This class handles rendering
+    of templates and can be changed using the new configuration value
+    "template_bridge".
+  - The config file itself can be an extension (if it provides a ``setup()``
+    function).
+
+* Markup:
+
+  - New directive, ``currentmodule``.  It can be used to indicate the module
+    name of the following documented things without creating index entries.
+  - Allow giving a different title to documents in the toctree.
+  - Allow giving multiple options in a ``cmdoption`` directive.
+  - Fix display of class members without explicit class name given.
+
+* Templates (HTML output):
+
+  - ``index.html`` renamed to ``defindex.html``, see above.
+  - There's a new config value, ``html_title``, that controls the overall
+    "title" of the set of Sphinx docs.  It is used instead everywhere instead of
+    "Projectname vX.Y documentation" now.
+  - All references to "documentation" in the templates have been removed, so
+    that it is now easier to use Sphinx for non-documentation documents with
+    the default templates.
+  - Templates now have an XHTML doctype, to be consistent with docutils'
+    HTML output.
+  - You can now create an OpenSearch description file with the
+    ``html_use_opensearch`` config value.
+  - You can now quickly include a logo in the sidebar, using the ``html_logo``
+    config value.
+  - There are new blocks in the sidebar, so that you can easily insert content
+    into the sidebar.
+
+* LaTeX output:
+
+  - The ``sphinx.sty`` package was cleaned of unused stuff.
+  - You can include a logo in the title page with the ``latex_logo`` config
+    value.
+  - You can define the link colors and a border and background color for
+    verbatim environments.
+
+Thanks to Jacob Kaplan-Moss, Talin, Jeroen Ruigrok van der Werven and Sebastian
+Wiesner for suggestions.
+
+Bugs fixed
+----------
+
+* sphinx.ext.autodoc: Don't check ``__module__`` for explicitly given
+  members.  Remove "self" in class constructor argument list.
+
+* sphinx.htmlwriter: Don't use os.path for joining image HREFs.
+
+* sphinx.htmlwriter: Don't use SmartyPants for HTML attribute values.
+
+* sphinx.latexwriter: Implement option lists.  Also, some other changes
+  were made to ``sphinx.sty`` in order to enhance compatibility and
+  remove old unused stuff.  Thanks to Gael Varoquaux for that!
+
+* sphinx.roles: Fix referencing glossary terms with explicit targets.
+
+* sphinx.environment: Don't swallow TOC entries when resolving subtrees.
+
+* sphinx.quickstart: Create a sensible default latex_documents setting.
+
+* sphinx.builder, sphinx.environment: Gracefully handle some user error
+  cases.
+
+* sphinx.util: Follow symbolic links when searching for documents.
+
+
+Release 0.1.61950 (Mar 26, 2008)
+================================
+
+* sphinx.quickstart: Fix format string for Makefile.
+
+
+Release 0.1.61945 (Mar 26, 2008)
+================================
+
+* sphinx.htmlwriter, sphinx.latexwriter: Support the ``.. image::``
+  directive by copying image files to the output directory.
+
+* sphinx.builder: Consistently name "special" HTML output directories
+  with a leading underscore; this means ``_sources`` and ``_static``.
+
+* sphinx.environment: Take dependent files into account when collecting
+  the set of outdated sources.
+
+* sphinx.directives: Record files included with ``.. literalinclude::``
+  as dependencies.
+
+* sphinx.ext.autodoc: Record files from which docstrings are included
+  as dependencies.
+
+* sphinx.builder: Rebuild all HTML files in case of a template change.
+
+* sphinx.builder: Handle unavailability of TOC relations (previous/
+  next chapter) more gracefully in the HTML builder.
+
+* sphinx.latexwriter: Include fncychap.sty which doesn't seem to be
+  very common in TeX distributions.  Add a ``clean`` target in the
+  latex Makefile.  Really pass the correct paper and size options
+  to the LaTeX document class.
+
+* setup: On Python 2.4, don't egg-depend on docutils if a docutils is
+  already installed -- else it will be overwritten.
+
+
+Release 0.1.61843 (Mar 24, 2008)
+================================
+
+* sphinx.quickstart: Really don't create a makefile if the user
+  doesn't want one.
+
+* setup: Don't install scripts twice, via setuptools entry points
+  and distutils scripts.  Only install via entry points.
+
+* sphinx.builder: Don't recognize the HTML builder's copied source
+  files (under ``_sources``) as input files if the source suffix is
+  ``.txt``.
+
+* sphinx.highlighting: Generate correct markup for LaTeX Verbatim
+  environment escapes even if Pygments is not installed.
+
+* sphinx.builder: The WebHTMLBuilder is now called PickleHTMLBuilder.
+
+* sphinx.htmlwriter: Make parsed-literal blocks work as expected,
+  not highlighting them via Pygments.
+
+* sphinx.environment: Don't error out on reading an empty source file.
+
+
+Release 0.1.61798 (Mar 23, 2008)
+================================
+
+* sphinx: Work with docutils SVN snapshots as well as 0.4.
+
+* sphinx.ext.doctest: Make the group in which doctest blocks are
+  placed selectable, and default to ``'default'``.
+
+* sphinx.ext.doctest: Replace ``<BLANKLINE>`` in doctest blocks by
+  real blank lines for presentation output, and remove doctest
+  options given inline.
+
+* sphinx.environment: Move doctest_blocks out of block_quotes to
+  support indented doctest blocks.
+
+* sphinx.ext.autodoc: Render ``.. automodule::`` docstrings in a
+  section node, so that module docstrings can contain proper
+  sectioning.
+
+* sphinx.ext.autodoc: Use the module's encoding for decoding
+  docstrings, rather than requiring ASCII.
+
+
+Release 0.1.61611 (Mar 21, 2008)
+================================
+
+* First public release.

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/!svn/ver/65279/doctools/tags/0.4.2/tests
+END
+test_quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/65279/doctools/tags/0.4.2/tests/test_quickstart.py
+END
+path.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65279/doctools/tags/0.4.2/tests/path.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65279/doctools/tags/0.4.2/tests/util.py
+END
+test_markup.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/65279/doctools/tags/0.4.2/tests/test_markup.py
+END
+run.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/65279/doctools/tags/0.4.2/tests/run.py
+END
+test_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/65279/doctools/tags/0.4.2/tests/test_config.py
+END

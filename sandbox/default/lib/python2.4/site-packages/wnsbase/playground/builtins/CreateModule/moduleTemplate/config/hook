@@ -1,0 +1,30 @@
+# This reads the RECIPIENTS variable as follows:
+# It tries to find the top most TLA project and
+# sources "config/hook" from there. The methods
+# defined here will automatically be overridden.
+
+function commit()
+{
+	# how to define an empty bash function?
+	initially="left empty"
+}
+
+function precommit()
+{
+	# how to define an empty bash function?
+	initially="left empty"
+}
+
+wnsRoot=$(tla tree-root)
+inTree=0
+
+while [ $inTree -eq 0 ]; do
+   wnsRoot=${wnsRoot}/..
+   guardFile=$wnsRoot"/.thisIsTheRootOfWNS"
+   if [ -f $guardFile ];
+   then
+     inTree=1
+   fi
+done
+
+source ${wnsRoot}/config/hook

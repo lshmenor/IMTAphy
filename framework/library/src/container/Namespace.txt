@@ -1,0 +1,4 @@
+/**
+@namespace wns::container
+@brief Advanced containers (FastList, ...)
+*/

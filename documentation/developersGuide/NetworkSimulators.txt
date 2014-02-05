@@ -1,0 +1,230 @@
+/**
+
+@page wns_documentation_networksimulators Other Network Simulators
+
+This page lists open source network simulation frameworks. The
+following simulation frameworks are not open source and have therefor
+not been included in this list:
+
+ - <a href="http://www.mathworks.com/">Matlab SimuLink</a>
+ - <a href="http://www.scalable-networks.com/">QualNet</a>
+ - <a href="http://www.opnet.com/">OpNet</a>
+ - <a href="http://www.radioplan.com/products/wines/index.html">WiNeS</a>
+
+The following list gives an overview over the open source simulators
+as available by 2008 to our best knowledge:
+
+Active Projects:
+ - @ref comparison_NS2
+ - @ref comparison_NS3
+ - @ref comparison_OMNET
+ - @ref comparison_NCTUns
+ - @ref comparison_GTNetS
+
+Inactive Projects:
+ - @ref comparison_SWANS
+ - @ref comparison_YANS
+ - @ref comparison_WiNe2
+ - @ref comparison_SSFNet
+ - @ref comparison_GloMoSim
+ - @ref comparison_Real
+
+
+@section comparison_NS2 NS-2
+
+<b>Last activity</b>: Still active<br>
+<b>URL</b>: <a href="http://nsnam.isi.edu/nsnam/index.php/Main_Page">http://nsnam.isi.edu/nsnam/index.php/Main_Page</a>
+
+<b>From the webpage</b>:<br>
+Ns-2 is a discrete event simulator targeted at networking
+research. Ns-2 provides substantial support for simulation of TCP,
+routing, and multicast protocols over wired and wireless (local and
+satellite) networks.
+
+
+@section comparison_NS3 NS-3
+
+<b>Last activity</b>: Still active<br>
+<b>URL</b>: <a href="http://nsnam.isi.edu/nsnam/index.php/Ns-3">http://nsnam.isi.edu/nsnam/index.php/Ns-3</a>
+
+<b>From the webpage</b>:<br>
+A new four-year program to develop the next major version of ns-3 was
+officially started on July 1, 2006. The program is funded as part of
+the NSF CISE CRI program. The PIs are Tom Henderson and Sumit Roy from
+the University of Washington, Sally Floyd from ICIR, and George Riley
+from the Georgia Institute of Technology.
+
+
+@section comparison_OMNET OMNET++
+
+<b>Last activity</b>: Still active<br>
+<b>URL</b>: <a href="http://www.omnetpp.org/">http://www.omnetpp.org/</a>
+
+<b>From the webpage</b>:<br>
+OMNeT++ is a public-source, component-based, modular and
+open-architecture simulation environment with strong GUI support and
+an embeddable simulation kernel. Its primary application area is the
+simulation of communication networks and because of its generic and
+flexible architecture, it has been successfully used in other areas
+like the simulation of IT systems, queueing networks, hardware
+architectures and business processes as well. OMNeT++ is rapidly
+becoming a popular simulation platform in the scientific community as
+well as in industrial settings. Several open source simulation models
+have been published, in the field of internet simulations (IP, IPv6,
+MPLS, etc), mobility and ad-hoc simulations and other areas.
+OMNeT++ is free for academic and non-profit use; commercial users must
+obtain a license.
+
+
+@section comparison_NCTUns NCTUns
+
+<b>Last activity</b>: Still active<br>
+<b>URL</b>: <a href="http://nsl10.csie.nctu.edu.tw/">http://nsl10.csie.nctu.edu.tw/</a>
+
+<b>From the webpage</b>:<br>
+The NCTUns is a high-fidelity and extensible network simulator and
+emulator capable of simulating various protocols used in both wired
+and wireless IP networks. Its core technology is based on the novel
+kernel re-entering methodology invented by Prof. S.Y. Wang [1, 2] when
+he was pursuing his Ph.D. degree at Harvard University. Due to this
+novel methodology, NCTUns provides many unique advantages that cannot
+be easily achieved by traditional network simulators such as ns-2 [3]
+and OPNET [4].
+
+@section comparison_GTNetS GTNetS
+
+<b>Last activity</b>: Still active<br>
+<b>URL</b>: <a href="http://www.ece.gatech.edu/research/labs/MANIACS/GTNetS/">http://www.ece.gatech.edu/research/labs/MANIACS/GTNetS/</a>
+
+<b>From the webpage</b>:<br>
+The Georgia Tech Network Simulator (GTNetS) is a full-featured network
+simulation environment that allows researchers in computer networks to
+study the behavior of moderate to large scale networks, under a
+variety of conditions. The design philosophy of GTNetS is to create a
+simulation environment that is structured much like actual networks
+are structured. For example, in GTNetS, there is clear and distinct
+separation of protocol stack layers.
+
+Packets in GTNetS consist of a list of protocol data units ( PDUs)
+that are appended and removed from the packet as it moves down and up
+the protocol stack. Simulation objects representing network nodes have
+one or more Interfaces, each of which can have an associated IP
+address and an associated link. Layer 4 protocol objects in GTNetS are
+bound to ports, in a fashion nearly identical to the binding to ports
+in real network protocols. Connections between protocol objects at the
+transport layer are specified using a source IP, source port,
+destination IP, destination port tuple just like actual TCP
+connections. The interface between applications and transport
+protocols uses the familiar connect, listen, send, and sendto calls
+much like the ubiquitous sockets API in Unix environments.
+
+@section comparison_YANS YANS (Yet another network simulator)
+
+<b>Last activity</b>: 05/2006<br>
+<b>URL</b>: <a href="http://yans.inria.fr/">http://yans.inria.fr/</a>
+
+@note The developer of YANS (Mathieu Lacage) is now working mainly on
+@ref comparison_NS3.
+
+<b>From the webpage</b>:<br>
+This network simulator has quite a few ambitious goals:
+    - provide a UDP/TCP IPv4 stack with multicast support.
+    - provide a nice network interface API to plug in various types of
+      network interfaces.
+    - provide at least a CSMA-CD (ethernet) network interface and a 802.11 network interface.
+    - provide a nice Packet API which can be used to support:
+          - libpcap-style packet dumps
+          - injection and sniffing of real packets in and out of the
+            simulator to and from a real network
+    - provide an application-level API similar to normal POSIX
+      environments to allow the porting of various classic
+      socket-based applications. For example, apache and various
+      routing daemons.
+
+@section comparison_SWANS JiST/SWANS
+
+<b>Last activity</b>: 05/2005<br>
+<b>URL</b>: <a href="http://jist.ece.cornell.edu">http://jist.ece.cornell.edu</a>
+
+<b>From the webpage</b>:<br>
+SWANS is a scalable wireless network simulator built atop the JiST
+platform. It was created primarily because existing network simulation
+tools are not sufficient for current research needs, and its
+performance serves as a validation of the virtual machine-based
+approach to simulator construction. SWANS is organized as independent
+software components that can be composed to form complete wireless
+network or sensor network configurations. Its capabilities are similar
+to ns2 and GloMoSim, but is able to simulate much larger
+networks. SWANS leverages the JiST design to acheive high simulation
+throughput, save memory, and run standard Java network applications
+over simulated networks. In addition, SWANS implements a data
+structure, called hierarchical binning, for efficient computation of
+signal propagation.
+
+
+@section comparison_SSFNet SSFNet
+
+<b>Last activity</b>: 01/2004<br>
+<b>URL</b>: <a href="http://www.ssfnet.org/homePage.html">http://www.ssfnet.org/homePage.html</a>
+
+<b>From the webpage</b>:<br>
+ssfnet.org is a clearinghouse for information about the latest tools
+for scalable high-performance network modeling, simulation, and
+analysis.
+
+
+
+@section comparison_WiNe2 WiNe2
+
+<b>Last activity</b>: 06/2003 <br>
+<b>URL</b>: <a href="http://www.wine2.org/">http://www.wine2.org/</a>
+
+<b>From the webpage</b>:<br>
+Nothing available
+
+
+
+@section comparison_GloMoSim GloMoSim
+
+<b>Last activity</b>: 02/2001 (now QualNet)<br>
+<b>URL</b>: <a href="http://pcl.cs.ucla.edu/projects/glomosim/">http://pcl.cs.ucla.edu/projects/glomosim/</a>
+
+<b>From the webpage</b>:<br>
+In GloMoSim we are building a scalable simulation environment for
+wireless and wired network systems. It is being designed using the
+parallel discrete-event simulation capability provided by
+Parsec. GloMoSim currently supports protocols for a purely wireless
+network. In the future, we anticipate adding functionality to simulate
+a wired as well as a hybrid network with both wired and wireless
+capabilities.
+
+Most network systems are currently built using a layered approach that
+is similar to the OSI seven layer network architecture. The plan is to
+build GloMoSim using a similar layered approach. Standard APIs will be
+used between the different simulation layers. This will allow the
+rapid integration of models developed at different layers by different
+people.
+
+
+
+@section comparison_Real Real Simulator
+
+<b>Last activity</b>: 08/1997<br>
+<b>URL</b>: <a href="http://www.cs.cornell.edu/skeshav/real/overview.html">http://www.cs.cornell.edu/skeshav/real/overview.html</a>
+
+<b>From the webpage</b>:<br>
+REAL is a network simulator originally intended for studying the
+dynamic behaviour of flow and congestion control schemes in
+packet-switched data networks. It provides users with a way of
+specifying such networks and to simulate their behavior. It provides
+around 30 modules (written in C) that exactly emulate the actions of
+several well-known flow control protocols (such as TCP), and 5
+research scheduling disciplines (such as Fair Queueing and
+Hierarchical Round Robin). The modular design of the system allows new
+modules to be added to the system with little effort. Source code is
+provided so that interested users can modify the simulator to their
+own purposes
+
+
+*/
+

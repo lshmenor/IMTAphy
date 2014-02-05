@@ -1,0 +1,10 @@
+// This page lists some images, just to get them automatically installed by
+// doxygen. This way, they can be used in the header.htm which is defined
+// in config/header.htm
+
+/**
+@page Logos
+@image html RWTHAachen-ComNets.png "RWTH Aachen University Logo"
+@image html openWNS.png "openWNS Logo"
+
+*/

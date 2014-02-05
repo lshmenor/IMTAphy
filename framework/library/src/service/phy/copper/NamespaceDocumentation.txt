@@ -1,0 +1,20 @@
+/**
+   @namespace wns::service::phy::copper
+
+   @brief Contains all interfaces related to a wireline transmitter
+
+   Three two parts form this interface:
+
+   @dot
+   digraph stacks {
+     node [shape=record, fontname=Helvetica, fontsize=12];
+     concentrate=false;
+     user [label = "User:"];
+     service [label = "PhyImplmentation:copper::Service"];
+     dataHandler [label = "DLLImplementation:copper::DataHandler"];
+     user -> service [taillabel="transmit data", fontname=Helvetica, fontsize=8];
+     service -> dataHandler [taillabel="forward received data", fontname=Helvetica, fontsize=8];
+     {rank = same; user; dataHandler}
+   }
+   @enddot
+*/

@@ -1,0 +1,2 @@
+jinja/_debugger.so
+jinja/_speedups.so

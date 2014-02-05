@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/!svn/ver/65568/doctools/trunk/doc/ext
+END
+math.rst
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/65568/doctools/trunk/doc/ext/math.rst
+END
+appapi.rst
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/65552/doctools/trunk/doc/ext/appapi.rst
+END
+coverage.rst
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/61706/doctools/trunk/doc/ext/coverage.rst
+END
+intersphinx.rst
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/65500/doctools/trunk/doc/ext/intersphinx.rst
+END
+autodoc.rst
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/65290/doctools/trunk/doc/ext/autodoc.rst
+END
+builderapi.rst
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/64383/doctools/trunk/doc/ext/builderapi.rst
+END
+refcounting.rst
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/61706/doctools/trunk/doc/ext/refcounting.rst
+END
+ifconfig.rst
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/61355/doctools/trunk/doc/ext/ifconfig.rst
+END
+doctest.rst
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/!svn/ver/62009/doctools/trunk/doc/ext/doctest.rst
+END

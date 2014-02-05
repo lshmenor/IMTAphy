@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/!svn/ver/65279/doctools/tags/0.4.2/sphinx/ext
+END
+coverage.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/65279/doctools/tags/0.4.2/sphinx/ext/coverage.py
+END
+autodoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/65279/doctools/tags/0.4.2/sphinx/ext/autodoc.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/65279/doctools/tags/0.4.2/sphinx/ext/__init__.py
+END
+refcounting.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/65279/doctools/tags/0.4.2/sphinx/ext/refcounting.py
+END
+ifconfig.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/65279/doctools/tags/0.4.2/sphinx/ext/ifconfig.py
+END
+doctest.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/65279/doctools/tags/0.4.2/sphinx/ext/doctest.py
+END

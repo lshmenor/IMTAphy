@@ -1,0 +1,47 @@
+/**
+
+@page wns_documentation_clean_shutdown Avoid Memory Leaks (Clean Shutdown)
+
+@todo Update, cleanup
+
+@section shutdown Why bother about a clean shutdown?
+
+When searching for memory leakages that occur at runtime, it is very helpful if you can rely on all
+other simulator structures being destroyed properly, so your memchecker will only address the actual
+leaks and not bother you with other things
+
+@section pointers When using Pointers, make up your mind about the ownership.
+
+Probably quite obvious: If you create an object with "new", make sure you know that is being deleted
+(and where). If the class/scope which created it can not delete it, make sure there's a clear
+responsibility for the deletion. If you can not do that --> use a wns::SmartPtr or a std::auto_ptr
+
+If you store pointers to objects in a data structure (e.g. registry, Tree, std::map, etc.), check
+thoroughly whether the structure deletes them when it is being destroyed or whether you have to do
+that yourself.
+
+NOTE that the wns::container::Registry per default DOES NOT take the ownership of pointers it
+stores, even though it can be configured to do so via its third template parameter. The
+wns::container::Tree and its derivates have the same behaviour.
+
+@todo this needs to be explained more generally. the documentation should provide information on what to do. otherwise we need to list the behaviour of all classes here.
+
+The following Data Structures delete the objects they store via a pointer:
+- Control- / ManagementServiceRegistry
+- IdProvider- / ConnectionIDProviderRegistry
+- Broker / StaticFactoryBroker
+- SingletonHolder
+
+The following structures create NEW objects and hand over the ownership to the caller:
+- StaticFactory - This means that any object you retrieve using "create" has to be deleted by YOU
+
+@section destructors Implement the destructors!
+
+Don't be lazy - implement destructors.
+Don't "create" objects (see above) without caring about them afterwards.
+
+
+If everybody adheres to this general guidelines when writing code, we will hopefully manage to have
+a more stable (and non-leaking) WNS in the future.
+
+*/

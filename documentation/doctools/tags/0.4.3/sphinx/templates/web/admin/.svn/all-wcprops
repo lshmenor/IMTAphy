@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/66848/doctools/tags/0.4.3/sphinx/templates/web/admin
+END
+layout.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/projects/!svn/ver/66848/doctools/tags/0.4.3/sphinx/templates/web/admin/layout.html
+END
+moderate_comments.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/projects/!svn/ver/66848/doctools/tags/0.4.3/sphinx/templates/web/admin/moderate_comments.html
+END
+change_password.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/projects/!svn/ver/66848/doctools/tags/0.4.3/sphinx/templates/web/admin/change_password.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/66848/doctools/tags/0.4.3/sphinx/templates/web/admin/index.html
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/!svn/ver/66848/doctools/tags/0.4.3/sphinx/templates/web/admin/login.html
+END
+manage_users.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/projects/!svn/ver/66848/doctools/tags/0.4.3/sphinx/templates/web/admin/manage_users.html
+END

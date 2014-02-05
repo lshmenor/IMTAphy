@@ -1,0 +1,24 @@
+Global TODO
+===========
+
+Sphinx
+******
+
+- autoattribute in autodoc
+- range and object options for literalinclude
+- option for compact module index
+- HTML section numbers?
+- split the general index?
+- "seealso" links to external examples, see http://svn.python.org/projects/sandbox/trunk/seealso/ and http://effbot.org/zone/idea-seealso.htm
+- "often used" combo box in sidebar
+- source file cross-references?
+
+Web App
+*******
+
+- fix /download
+
+- discuss and debug comments system
+- prepare for databases other than sqlite for comments
+- add search via Xapian or Nucular (Python indexer - nucular.sf.net)
+- optionally have a contents tree view in the sidebar (AJAX based)?

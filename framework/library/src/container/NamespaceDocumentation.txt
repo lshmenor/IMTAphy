@@ -1,0 +1,5 @@
+/**
+ * @namespace wns::container
+ *
+ * @brief Lists, Matrices, Ranges, Registries, ...
+ */

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/!svn/ver/66590/doctools/converter/converter
+END
+scanner.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/61549/doctools/converter/converter/scanner.py
+END
+latexparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/66590/doctools/converter/converter/latexparser.py
+END
+restwriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/66486/doctools/converter/converter/restwriter.py
+END
+tokenizer.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/!svn/ver/61549/doctools/converter/converter/tokenizer.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/61549/doctools/converter/converter/util.py
+END
+docnodes.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/61549/doctools/converter/converter/docnodes.py
+END
+filenamemap.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/61549/doctools/converter/converter/filenamemap.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/61549/doctools/converter/converter/__init__.py
+END
+console.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/61549/doctools/converter/converter/console.py
+END

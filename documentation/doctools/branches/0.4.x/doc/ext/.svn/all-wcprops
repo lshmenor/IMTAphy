@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/64643/doctools/branches/0.4.x/doc/ext
+END
+appapi.rst
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/ext/appapi.rst
+END
+coverage.rst
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/ext/coverage.rst
+END
+autodoc.rst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/64643/doctools/branches/0.4.x/doc/ext/autodoc.rst
+END
+builderapi.rst
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/ext/builderapi.rst
+END
+refcounting.rst
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/ext/refcounting.rst
+END
+ifconfig.rst
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/ext/ifconfig.rst
+END
+doctest.rst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/64537/doctools/branches/0.4.x/doc/ext/doctest.rst
+END

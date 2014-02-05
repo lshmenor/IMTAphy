@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext
+END
+appapi.rst
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext/appapi.rst
+END
+coverage.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext/coverage.rst
+END
+autodoc.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext/autodoc.rst
+END
+builderapi.rst
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext/builderapi.rst
+END
+refcounting.rst
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext/refcounting.rst
+END
+ifconfig.rst
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext/ifconfig.rst
+END
+doctest.rst
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/64739/doctools/tags/0.4.1/doc/ext/doctest.rst
+END

@@ -1,0 +1,53 @@
+/**
+
+@page SDKLayout Layout of the SDK
+
+The SDK (Software Development Kit) keeps all other sub projects of
+openWNS. The structure of the SDK as well as the location of the sub
+projects is as follows (note, a directory followed by a name in square
+means the directory is a sub project):
+
+@verbatim
+openWNS-sdk/ [openwns-sdk]  ................................. master project
+
+    bin/ .................................................... helper scripts
+
+    config/ ...................................... configuration for the SDK
+
+        projects.py ... defines the projects being part of this working copy
+        private.py ....................... user defined compilation settings
+        pushMailRecipients.py .... list of recipients for mail on 'bzr push'
+        valgrind.supp ............... openWNS-specific valgrind suppressions
+        wnsrc.py .......... support to determine the location of current SDK
+
+    documentation/ [openwns-documentation] ....... the documentation project
+
+    framework/ ........... core part (lib, simulator application) of openWNS
+        application/ [openwns-application] ........ core application project
+        library/ [openwns-library]  ................... core library project
+        rise/[openwns-rise] .................... Layer 1 and channel library
+        dllbase/[openwns-dllbase] .......................... Layer 2 library
+        pywns/ [openwns-pywns] ..... post processing, system tests in python
+
+    modules/ ....................................... reserved for future use
+
+    sandbox/ .............. the build system will install libs and apps here
+
+    supportLibs/ [openwns-supportlibs] ...................... 3rd party libs
+                 ...... optional (available if part of the SDK configuration
+
+    tests/
+       unit/ [openwns-unittest] ................. Python annd C++ unit tests
+       system/ ..................................... reserved for future use
+
+    wnsbase/ .................................................. SDK builtins
+@endverbatim
+
+Most important are probably the @c framework and @c unit test
+directory ;-).
+
+Note: When openwns-sdk is initial download the sub projects are not
+contained in the SDK. See @ref download for further instructions on how to
+fetch the missing parts.
+
+*/

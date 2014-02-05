@@ -1,0 +1,21 @@
+
+This project was created from the binaryTemplate of playground's CreateModule plugin.
+
+
+INSTALL
+-------
+
+The Binary is automatically built when you call
+
+playground.py install
+
+the executable is 
+
+sandbox/BUILDFLAVOUR/bin/projname
+
+LINKING
+-------
+
+Currently the executable is linked against libwns.
+Edit the SConscript file to add more dependencies to the LIBS variable.
+

@@ -1,0 +1,33 @@
+/**
+@page installation Installation
+
+After you have successfully downloaded (see @ref download) openWNS you
+are ready to install openWNS. Make sure you satisfy all @ref
+prerequisites.
+
+The installation itself is quite easy:
+
+@verbatim
+./playground.py install --flavour=dbg
+@endverbatim
+
+After building has finished you can find the respective modules in
+@c './sandbox/dbg/'.
+
+Under @c './sandbox/dbg/bin/' you should find a binary which is called
+@c 'openwns'. If you want to check if everything worked change to:
+
+@verbatim
+cd tests/unit/unitTests
+@endverbatim
+
+and say
+
+@verbatim
+./openwns -t -v
+@endverbatim
+
+@c -t runs all available unit tests and @c -v puts @c openwns into verbose mode
+(@c --help shows all available options).
+
+*/

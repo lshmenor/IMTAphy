@@ -1,0 +1,25 @@
+# mmbp_example_02.gdf
+#
+# Number of States
+#
+N = 5
+#
+# Distributions for the packets in the single states
+#
+# StateNr. PDF Arg0 Arg1
+#
+0 bernoulli 0.5 0.0
+1 bernoulli 0.7 0.0
+2 bernoulli 0.1 0.0
+3 bernoulli 0.9 0.0
+4 bernoulli 0.6 0.0
+#
+# Matrix (probabilities)
+# ij : state i -> state j
+#
+#
+0.990 0.001 0.001 0.001 0.007
+0.002 0.990 0.002 0.001 0.005 
+0.006 0.002 0.980 0.007 0.005 
+0.009 0.001 0.002 0.980 0.008
+0.001 0.001 0.001 0.001 0.996

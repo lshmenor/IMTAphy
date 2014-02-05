@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests
+END
+test_quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/test_quickstart.py
+END
+path.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/path.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/util.py
+END
+test_build.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/test_build.py
+END
+test_markup.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/test_markup.py
+END
+test_application.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/test_application.py
+END
+run.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/run.py
+END
+test_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/test_config.py
+END
+test_env.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/66848/doctools/tags/0.4.3/tests/test_env.py
+END

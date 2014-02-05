@@ -1,0 +1,9 @@
+config/pushMailRecipients.py
+config/private.py
+.objs
+.sconsign.dblite
+addOn
+build
+doxydoc
+include
+config/bversion.hpp

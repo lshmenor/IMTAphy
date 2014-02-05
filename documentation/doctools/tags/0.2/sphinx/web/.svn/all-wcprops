@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/admin.py
+END
+markup.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/markup.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/__init__.py
+END
+feed.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/feed.py
+END
+application.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/application.py
+END
+database.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/database.py
+END
+wsgiutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/wsgiutil.py
+END
+robots.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/robots.py
+END
+antispam.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/antispam.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/util.py
+END
+mail.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/mail.py
+END
+webconf.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/webconf.py
+END
+userdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/userdb.py
+END
+serve.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/serve.py
+END
+oldurls.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/62542/doctools/tags/0.2/sphinx/web/oldurls.py
+END

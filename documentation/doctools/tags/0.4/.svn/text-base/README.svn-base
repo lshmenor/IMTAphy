@@ -1,0 +1,30 @@
+=================
+README for Sphinx
+=================
+
+Installing
+==========
+
+Use ``setup.py``::
+
+   python setup.py build
+   sudo python setup.py install
+
+
+Reading the docs
+================
+
+After installing::
+
+   cd doc
+   mkdir -p _build/html
+   sphinx-build . _build/html
+   browser _build/index.html
+
+Or read them online at <http://sphinx.pocoo.org/>.
+
+
+Contributing
+============
+
+Send wishes, comments, patches, etc. to georg@python.org.

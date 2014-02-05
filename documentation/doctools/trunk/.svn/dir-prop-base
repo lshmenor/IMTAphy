@@ -1,0 +1,18 @@
+K 10
+svn:ignore
+V 37
+build
+dist
+art
+Sphinx.egg-info
+*.egg
+
+K 16
+svnmerge-blocked
+V 60
+/doctools/branches/0.4.x:64734,65277,65280,65505,66252,66405
+K 19
+svnmerge-integrated
+V 104
+/doctools/branches/0.4.x:1-64733,64735-65276,65278-65279,65281-65504,65506-66251,66253-66404,66406-66602
+END

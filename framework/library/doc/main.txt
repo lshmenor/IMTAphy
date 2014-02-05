@@ -1,0 +1,25 @@
+/**
+ * @page wns_library_view openWNS Core Overview
+ *
+ * @dot
+ digraph overview {
+   node [shape=record, fontname=Helvetica, fontsize=10, color=black, height=0.2,width=0.4];
+   edge [style="solid", arrowhead="open", fontsize=10, fontname=Helvetica ]
+
+   main [ label="wns::simulator::Main : main" URL="\ref wns::simulator::Main"];
+   app  [ label="wns::simulator::IApplication : app" URL="\ref wns::simulator::IApplication" color=red];
+   simulator [ label="wns::simulator::ISimulator : simulator" URL="\ref wns::simulator::ISimulator"];
+   scheduler [ label="wns::events::scheduler::Interface : scheduler" URL="\ref wns::events::scheduler::Interface"];
+   rng  [ label="wns::rng::RNGen : rng" URL="\ref wns::rng::RNGen"];
+   masterLogger [ label="wns::logger::Master : masterLogger" URL="\ref wns::logger::Master"];
+   config [ label="wns::pyconfig::View : config" URL="\ref wns::pyconfig::View"];
+
+   main -> app [label = "wraps (1,1)"];
+   app -> simulator [label = "manages (1,1)"];
+   simulator -> scheduler [label = "manages (1,1)"];
+   simulator -> rng [label = "manages (1,1)"];
+   simulator -> config [label = "manages (1,1)"];
+   simulator -> masterLogger [label = "manages (1,1)"];
+ }
+ * @enddot
+ */

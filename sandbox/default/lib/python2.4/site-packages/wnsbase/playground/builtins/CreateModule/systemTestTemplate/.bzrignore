@@ -1,0 +1,6 @@
+output*
+stderr.log
+stdout.log
+*.junk
+*.csv
+.BACKUP

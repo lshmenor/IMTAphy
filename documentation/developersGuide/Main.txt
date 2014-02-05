@@ -1,0 +1,48 @@
+/**
+
+@mainpage
+
+The open Wireless Network Simulator (openWNS) is a highly modular
+simulator for performance evaluation of mobile radio networks. It is
+written in C++ (with Python support for configuration) and developed
+at <a href="http://www.comnets.rwth-aachen.de">ComNets, RWTH Aachen
+University</a>. It allows for stochastic simulations based on
+prototypic protocol implementations.
+
+The goal of this project is to provide a simulator which is suiteable
+for various kinds of performance evaluation of wireless networks. A point
+of special interest is the support of cellular mobile radio
+networks. The key idea is to have a flexible framework which allows
+the researcher to adapt the grade of complexity/accuracy of the simulation
+model to his needs for the respective simulation/investigation.
+
+The second major goal of this project is to provide a simulator which
+supports the researcher in testing his implementations in
+order to help him find errors at very early stages during his
+investigation. Therefor it provides comfortable to use testing
+frameworks at different levels of testing (from Unit Testing to System
+Testing). These frameworks have been carefully tailored to an
+event-driven, stochastic simulation system.
+
+This documentation contains:
+
+  - @subpage wns_documentation_usermanual
+  - @subpage wns_documentation_developersguide
+  - @subpage group_tutorials
+  - @subpage group_modules
+  - API Documentation
+    - Choose the tab <a href="classes.htm">Classes</a> or
+    - choose the tab <a href="namespaces.htm">Namespaces</a>
+  - @subpage group_main_classes
+  - <a href="PyCoDoc/">PyConfig Documentation</a>
+
+@defgroup group_main_classes Main classes
+@brief The most important classes
+
+@defgroup group_tutorials Tutorials
+@brief Various tutorials
+
+@defgroup group_modules SDK Modules
+@brief Modules like IP, TCP, ...
+
+*/

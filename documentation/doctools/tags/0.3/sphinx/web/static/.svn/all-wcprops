@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx/web/static
+END
+admin.css
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx/web/static/admin.css
+END
+nocomment.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx/web/static/nocomment.png
+END
+preview.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx/web/static/preview.png
+END
+comment.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx/web/static/comment.png
+END
+hovercomment.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/!svn/ver/62772/doctools/tags/0.3/sphinx/web/static/hovercomment.png
+END

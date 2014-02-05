@@ -1,0 +1,9 @@
+#!/usr/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'Sphinx==0.5dev-20081110','console_scripts','sphinx-build'
+__requires__ = 'Sphinx==0.5dev-20081110'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('Sphinx==0.5dev-20081110', 'console_scripts', 'sphinx-build')()
+)

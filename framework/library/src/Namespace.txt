@@ -1,0 +1,4 @@
+/**
+@namespace wns
+@brief Contains the core functionailty
+*/

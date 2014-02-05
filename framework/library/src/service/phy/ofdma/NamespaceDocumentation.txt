@@ -1,0 +1,5 @@
+/**
+   @namespace wns::service::phy::ofdma
+
+   @brief Contains all interfaces related to OFDMA data transmission
+*/

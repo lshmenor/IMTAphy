@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/!svn/ver/62772/doctools/tags/0.3/utils
+END
+reindent.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/62772/doctools/tags/0.3/utils/reindent.py
+END
+pylintrc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/62772/doctools/tags/0.3/utils/pylintrc
+END
+check_sources.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/!svn/ver/62772/doctools/tags/0.3/utils/check_sources.py
+END

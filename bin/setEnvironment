@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# The script assumes the first parameter to be the location of the
+# WNS--Main you want to use.
+
+# it sets appropriate paths to the Python Helpers, the 'dbg' sandbox
+# and the helper scripts
+
+# determine location of WNS--main
+cd $1
+export TESTBED=`pwd`
+
+BASEPATH=$(basename $TESTBED)
+
+# set appropriate paths
+export PATH=$PATH:$TESTBED/bin
+export PYTHONPATH=$HOME/.wns
+
+export PIMPMYPROMPT1="$BASEPATH - "
+export PIMPMYPROMPT2=''
+# open a fresh shell with the new settings
+bash
+

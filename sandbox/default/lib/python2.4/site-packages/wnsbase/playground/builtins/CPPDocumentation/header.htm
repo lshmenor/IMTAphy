@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>$title</title>
+<link href="$relpath$doxygen.css" rel="stylesheet" type="text/css">
+<link href="$relpath$tabs.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+
+function getElementsByTagNames(list,obj) {
+    if (!obj) var obj = document;
+    var tagNames = list.split(',');
+    var resultArray = new Array();
+    for (var i=0;i<tagNames.length;i++){
+       var tags = obj.getElementsByTagName(tagNames[i]);
+       for (var j=0;j<tags.length;j++) {
+           resultArray.push(tags[j]);
+				       }
+    }
+    var testNode = resultArray[0];
+    if (!testNode) return [];
+    if (testNode.sourceIndex) {
+        resultArray.sort(function (a,b) {
+                return a.sourceIndex - b.sourceIndex;
+            });
+    }
+    else if (testNode.compareDocumentPosition) {
+        resultArray.sort(function (a,b) {
+                return 3 - (a.compareDocumentPosition(b) & 6);
+            });
+    }
+    return resultArray;
+}
+
+function createTOC() {
+	var y = document.getElementById('pageToc')
+	y.id = 'innertoc';
+	var a = y.appendChild(document.createElement('span'));
+	a.id = 'contentheader';
+	var z = y.appendChild(document.createElement('div'));
+	var toBeTOCced = getElementsByTagNames('h2,h3,h4,h5');
+	if (toBeTOCced.length < 2) return false;
+
+	for (var i=0;i<toBeTOCced.length;i++) {
+		var tmp = document.createElement('a');
+		tmp.innerHTML = toBeTOCced[i].innerHTML;
+		z.appendChild(tmp);
+		if (toBeTOCced[i].nodeName == 'H1')
+			tmp.className = 'tocH1';
+		if (toBeTOCced[i].nodeName == 'H2')
+			tmp.className = 'tocH2';
+		if (toBeTOCced[i].nodeName == 'H3')
+			tmp.className = 'tocH3';
+		if (toBeTOCced[i].nodeName == 'H4')
+			tmp.className = 'tocH4';
+		if (toBeTOCced[i].nodeName == 'H5')
+			tmp.className = 'tocH5';
+		var headerId = toBeTOCced[i].id || 'link' + i;
+		tmp.href = '#' + headerId;
+		toBeTOCced[i].id = headerId;
+                z.appendChild(document.createElement('br'));
+	}
+	return y;
+}
+
+</script>
+
+</head><body onload="createTOC()">
+<table border=0 width=100%><tr>
+<td align=left><img src="openWNS.png"></td>
+<td align=center><div style="font-size:150%;font-weight:bold;">User Manual, Developers Guide and API Documentation</div></td>
+<td align=right><img src="RWTHAachen-ComNets.png"></td>
+</tr></table>

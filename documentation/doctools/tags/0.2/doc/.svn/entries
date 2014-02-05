@@ -1,0 +1,187 @@
+8
+
+dir
+66883
+http://svn.python.org/projects/doctools/tags/0.2/doc
+http://svn.python.org/projects
+
+
+
+2008-04-27T19:43:45.543046Z
+62538
+georg.brandl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6015fed2-1504-0410-9fe1-9d1591cc4771
+
+changes.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+d22a4471e5fd888861ae542434a928f1
+2008-03-28T18:45:32.803329Z
+62009
+georg.brandl
+
+builders.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+6d62f0e1fd65e6c920a74199faf26e78
+2008-03-25T19:20:26.603227Z
+61908
+georg.brandl
+
+rest.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+f322467775c81920774c81b7a22c84d6
+2008-04-26T18:01:42.231632Z
+62510
+georg.brandl
+
+concepts.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+0b9b7bc6beba6df663d8631f73c2a5e5
+2008-04-19T21:28:24.176890Z
+62406
+georg.brandl
+
+_static
+dir
+
+_templates
+dir
+
+_build
+dir
+
+markup
+dir
+
+ext
+dir
+
+intro.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+8fdec739dfb97d0b6218341adce8a08c
+2008-03-28T18:45:32.803329Z
+62009
+georg.brandl
+
+contents.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+905dc282053f7120715bd2431d8783b2
+2008-04-06T16:47:28.688638Z
+62186
+georg.brandl
+
+extensions.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+c119bd32fd7e66462e2c951742f13a8e
+2008-04-06T17:38:55.497735Z
+62188
+georg.brandl
+
+glossary.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+9bedbcd5b8e71d8b4689aa68ef9a2be0
+2008-03-18T18:19:21.091015Z
+61534
+georg.brandl
+
+templating.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+f5e0de13ad06feb1ba969bcca27ca0d6
+2008-04-27T19:43:45.543046Z
+62538
+georg.brandl
+
+config.rst
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+d62196327612f5be70de095cbe6821d8
+2008-04-27T19:43:45.543046Z
+62538
+georg.brandl
+
+conf.py
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+d5826c75243bba0b358c4421f1d4debf
+2008-04-27T19:43:45.543046Z
+62538
+georg.brandl
+
+Makefile
+file
+
+
+
+
+2008-10-13T14:08:35.000000Z
+87070f09a80cf85c69570ff836c06328
+2008-03-26T12:16:59.142307Z
+61932
+georg.brandl
+

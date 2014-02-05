@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/!svn/ver/66847/doctools/branches/0.4.x
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/64537/doctools/branches/0.4.x/LICENSE
+END
+ez_setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/!svn/ver/65283/doctools/branches/0.4.x/ez_setup.py
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/64537/doctools/branches/0.4.x/AUTHORS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/!svn/ver/65123/doctools/branches/0.4.x/TODO
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/64537/doctools/branches/0.4.x/setup.py
+END
+sphinx-quickstart.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx-quickstart.py
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/!svn/ver/66847/doctools/branches/0.4.x/CHANGES
+END
+sphinx-build.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/!svn/ver/64537/doctools/branches/0.4.x/sphinx-build.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/!svn/ver/64537/doctools/branches/0.4.x/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/65372/doctools/branches/0.4.x/Makefile
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/!svn/ver/64537/doctools/branches/0.4.x/setup.cfg
+END
+EXAMPLES
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/!svn/ver/66846/doctools/branches/0.4.x/EXAMPLES
+END
